@@ -107,19 +107,57 @@ void Hall::initStatus(ValueMap map)
     per = (LoadingBar*)(status->getChildByName("guokuper"));
     per->setPercent(100);
     
-
-    label = (Text*)(_layer->getChildByName("evening1"));
-    auto timestr = map["time"].asString();
-    label->setText(timestr);
-    
-    label = (Text*)(status->getChildByName("time"));
-    label->setText(map["date"].asString());
-    int season = GameManager::getInstance()->getIntByKey("Common",{"季"});
-    auto hallimage = (ImageView*)(_layer->getChildByName("hallimage"));
-    if (season == 4) {  //冬季
-        
-    }
+    showTime(map["date"].asString(), map["time"].asString());
 }
+void Hall::showTime(std::string date, std::string time)
+{
+    auto label = (Text*)(_layer->getChildByName("evening1"));
+    label->setText(time);
+    label = (Text*)(_layer->getChildByName("status")->getChildByName("time"));
+    label->setText(date);
+    
+    int season = GameManager::getInstance()->getIntByKey("Common",{"季"});
+    
+    std::string filename = "";
+    if (time == "晚上")
+    {
+        if(season != 4)
+            filename = "Images/Hall/evening1.jpg";
+        else
+            filename = "Images/Hall/winterevening1.jpg";
+    }
+    else if (time == "深夜")
+    {
+        if(season != 4)
+            filename = "Images/Hall/evening2.jpg";
+        else
+            filename = "Images/Hall/winterevening2.jpg";
+    }
+    else
+    {
+        switch (season) {
+            case 1:
+                filename = "Images/Hall/spring.png";
+                break;
+            case 2:
+                filename = "Images/Hall/summer.png";
+                break;
+            case 3:
+                filename = "Images/Hall/autumn.png";
+                break;
+            case 4:
+                filename = "Images/Hall/winter.jpg";
+                break;
+            default:
+                break;
+        }
+    }
+    auto hallimage = (ImageView*)(_layer->getChildByName("hallimage"));
+    hallimage->loadTexture(filename.c_str());
+}
+
+
+
 void Hall::hallBtnClicked(Object* target,TouchEventType type)
 {
     if (type == TOUCH_EVENT_ENDED) {
@@ -129,12 +167,12 @@ void Hall::hallBtnClicked(Object* target,TouchEventType type)
     }
 }
 #pragma -mark effect
-Animation* Hall::createAnimation(int type,std::string& filename)
+Animation* Hall::createAnimation(clickType type,std::string& filename)
 {
     auto animage = Animation::create();
     animage->setDelayPerUnit(0.5f);
     switch (type) {
-        case 1:
+        case HALL_BAIJUYUAN:
         {
             srand(time(NULL));
             int type = rand() % 2;
@@ -150,31 +188,31 @@ Animation* Hall::createAnimation(int type,std::string& filename)
             }
         }
             break;
-        case 2:
+        case HALL_YUSHUYUAN:
         {
             filename = "Images/Hall/Image 395.png";
             animage->addSpriteFrameWithFile("Images/Hall/Image 395.png");
             animage->addSpriteFrameWithFile("Images/Hall/Image 397.png");
         }
             break;
-        case 3:
+        case HALL_WUDAOCHANG:
         {
             filename = "Images/Hall/Image 400.png";
             animage->addSpriteFrameWithFile("Images/Hall/Image 400.png");
             animage->addSpriteFrameWithFile("Images/Hall/Image 402.png");
         }
             break;
-        case 4:
+        case HALL_CININGGONG:
         {
             filename = "Images/Hall/Image 405.png";
             animage->addSpriteFrameWithFile("Images/Hall/Image 405.png");
             animage->addSpriteFrameWithFile("Images/Hall/Image 407.png");
         }
             break;
-        case 5:
+        case HALL_QINGQIGE:
         {
             srand(time(NULL));
-            int type = 3;   //rand() %
+            int type = 3;
             if (type == 0) {
                 filename = "Images/Hall/Image 423.png";
                 animage->addSpriteFrameWithFile("Images/Hall/Image 423.png");
@@ -188,13 +226,18 @@ Animation* Hall::createAnimation(int type,std::string& filename)
             }
         }
             break;
-            
+        case HALL_JINRONGDIAN:
+        {
+            filename = "Images/Hall/Image 391.png";
+            animage->addSpriteFrameWithFile("Images/Hall/Image 391.png");
+        }
+            break;
         default:
             break;
     }
     return animage;
 }
-void Hall::showEffect(std::string str,int type)
+void Hall::showEffect(std::string str,clickType type)
 {
     auto effect = _layer->getChildByName("effect");
     effect->setVisible(true);

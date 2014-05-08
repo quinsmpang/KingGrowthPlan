@@ -14,6 +14,17 @@
 #include "General.h"
 class GameManager;
 
+enum clickType{
+    HALL_NONE = 0,
+    HALL_BAIJUYUAN = 1,
+    HALL_YUSHUYUAN = 2,
+    HALL_WUDAOCHANG = 3,
+    HALL_CININGGONG = 4,
+    HALL_QINGQIGE = 5,
+    HALL_JINRONGDIAN = 6,
+};
+
+
 USING_NS_CC;
 
 class Hall;

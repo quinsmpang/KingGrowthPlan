@@ -95,5 +95,6 @@ void InitGameData::initGuanyuan()
 }
 void InitGameData::initOthers()
 {
+    _manager->setDeepStringValue("1", "isSuccess");
     
 }

@@ -72,24 +72,23 @@ std::string HallModel::getTime()
 
 void HallModel::clickAt(std::string name)
 {
-    CCLOG("%s",name.c_str());
     std::string show = "";
     
     int tili = _manager->getIntByKey("PlayerInfo",{"Strength"});
     tili -= 40;
     int nowtime = _manager->getIntByKey("Common",{"时辰"});
     
-    int type = 0;
+    clickType type = HALL_NONE;
     
     if (name == "baijuyuan"){
         show = "皇上在百剧园欣赏表演。";
         show += upgrade("Caiyi","才艺");
-        type = 1;
+        type = HALL_BAIJUYUAN;
     }
     else if(name == "xushuyuan"){
         show = "皇上在御书园读书。";
         show += upgrade("Zhihui","智慧");
-        type = 2;
+        type = HALL_YUSHUYUAN;
     }
     else if(name == "jinlongdian"){
         show = "皇上在金龙殿休息。";
@@ -105,7 +104,7 @@ void HallModel::clickAt(std::string name)
                 }
             }
             auto title = arr.at(rand() % arr.size()).asString();
-            show = show + title + "娘娘前来伺候皇上休息。";
+            show = show + "\n" + title + "娘娘前来伺候皇上休息。";
             healthy += 5;
         }
         healthy += 5;
@@ -119,32 +118,33 @@ void HallModel::clickAt(std::string name)
             show += "\n体力恢复全满。";
         }else
             show += "\n体力恢复220";
+        type = HALL_JINRONGDIAN;
     }
     else if(name == "wudaochang"){
         show = "皇上在武道场锻炼身体。";
         show += upgrade("Wushu","武术");
-        type = 3;
+        type = HALL_WUDAOCHANG;
     }
     else if(name == "cininggong"){
         if ( nowtime < 4 && nowtime > 1) {
             show = "前往慈宁宫向太后请安。";
             tili += 10;
             upgrade("Daode","道德");
-            type = 4;
+            type = HALL_CININGGONG;
         }else{
-            type = 0;
+            type = HALL_NONE;
         }
     }
     else if(name == "qingqige"){
         show = "皇上在琴棋阁下棋弹琴。";
         show += upgrade("Meili","魅力");
-        type = 5;
+        type = HALL_QINGQIGE;
     }
     
     _manager->setDeepIntValue(tili, "PlayerInfo",{"Strength"});
     _status["Strength"] = Value(tili);
     
-    if (type != 0) {
+    if (type != HALL_NONE) {
         _view->showEffect(show,type);
     }
 }
@@ -194,22 +194,22 @@ void HallModel::updateTime()
                 ji = 1;
                 int year = _manager->getIntByKey("Common",{"年"});
                 year++;
-                _manager->setDeepIntValue(nowtime, "Common",{"年"});
+                _manager->setDeepIntValue(year, "Common",{"年"});
             }
-            _manager->setDeepIntValue(nowtime, "Common",{"季"});
+            _manager->setDeepIntValue(ji, "Common",{"季"});
         }
-        _manager->setDeepIntValue(nowtime, "Common",{"旬"});
+        _manager->setDeepIntValue(xun, "Common",{"旬"});
     }
     _manager->setDeepIntValue(nowtime, "Common",{"时辰"});
     _status["time"] = getTime();
     _status["date"] = getDate();
     _view->initStatus(_status);
     
-    if (flag != 0) {
+    if (flag != 0) {      //过场动画
         _view->showNextTime();
     }
 }
 void HallModel::checkEvent()
 {
-    CCLOG("hahaha");
+    
 }

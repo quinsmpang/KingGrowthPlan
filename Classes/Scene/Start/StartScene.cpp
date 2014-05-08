@@ -27,6 +27,9 @@ bool StartScene::init()
     auto newgame = layer->getChildByName("Button_24");
     newgame->addTouchEventListener(this, toucheventselector(StartScene::NewGame));
     
+    auto loadgame = layer->getChildByName("Button_26");
+    loadgame->addTouchEventListener(this, toucheventselector(StartScene::loadGame));
+    
     return true;
 }
 void StartScene::NewGame(Object* target, TouchEventType type)
@@ -34,6 +37,17 @@ void StartScene::NewGame(Object* target, TouchEventType type)
     if (type == TOUCH_EVENT_ENDED) {
         auto scene = GameManager::createSceneWithTag(GameSceneBg);
         Director::getInstance()->replaceScene(TransitionFade::create(0.5f, scene));
-//        Director::getInstance()->replaceScene(scene);
     }
 }
+
+void StartScene::loadGame(Object* target, TouchEventType type)
+{
+    if (type == TOUCH_EVENT_ENDED) {
+        if(GameManager::getInstance()->getStringByKey("isSuccess") == "1")
+        {
+            auto scene = GameManager::createSceneWithTag(GameSceneHall);
+            Director::getInstance()->replaceScene(TransitionFade::create(0.5f, scene));
+        }
+    }
+}
+

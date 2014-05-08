@@ -1,7 +1,7 @@
 //
 //  Palace.h
 //  KingGrowthPlan
-//  皇宫
+//  宣政殿
 //  Created by 凌云 on 14-3-14.
 //
 //

@@ -26,7 +26,7 @@ public:
     CREATE_FUNC(StartScene);
     
     void NewGame(Object*,TouchEventType);
-//    void NewGame(Object*,TouchEventType);
+    void loadGame(Object*,TouchEventType);
 };
 
 #endif /* defined(__KingGrowthPlan__StartScene__) */

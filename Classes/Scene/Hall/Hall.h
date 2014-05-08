@@ -27,9 +27,11 @@ public:
     
 public:
     void initStatus(ValueMap);
-    void showEffect(std::string str,int type);
-    Animation* createAnimation(int type,std::string&);
+    void showEffect(std::string str,clickType type);
+    Animation* createAnimation(clickType type,std::string&);
     void showNextTime();
+    
+    void showTime(std::string date, std::string time);
     
 protected:
     void initBtn();
