@@ -1,0 +1,130 @@
+<Solution>
+  <PropertyGroup Name="KingGrowthPlan" Version="2.0.6.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="Start.csd" />
+        <Folder Name="Images">
+          <Folder Name="Common">
+            <Folder Name="xiaoguizi">
+              <Image Name="xiaoguizi_1.png" />
+              <Image Name="xiaoguizi_2.png" />
+              <Image Name="xiaoguizi_3.png" />
+              <Image Name="xiaoguizi_4.png" />
+              <Image Name="xiaoguizi_5.png" />
+              <Image Name="xiaoguizi_6.png" />
+              <Image Name="xiaoguizi_7.png" />
+              <Image Name="xiaoguizi_8.png" />
+            </Folder>
+          </Folder>
+          <Folder Name="CreateScene">
+            <Image Name="createRole_1.png" />
+            <Image Name="createRole_10.png" />
+            <Image Name="createRole_11.png" />
+            <Image Name="createRole_12.png" />
+            <Image Name="createRole_13.png" />
+            <Image Name="createRole_14.png" />
+            <Image Name="createRole_15.png" />
+            <Image Name="createRole_2.png" />
+            <Image Name="createRole_3.png" />
+            <Image Name="createRole_4.png" />
+            <Image Name="createRole_5.png" />
+            <Image Name="createRole_6.png" />
+            <Image Name="createRole_7.png" />
+            <Image Name="createRole_8.png" />
+            <Image Name="createRole_9.png" />
+          </Folder>
+          <Folder Name="Dengji">
+            <Image Name="dengji_1.png" />
+            <Image Name="dengji_2.png" />
+            <Image Name="dengji_3.png" />
+            <Image Name="dengji_4.png" />
+          </Folder>
+          <Folder Name="Fonts">
+            <File Name="FZHLJW.TTF" />
+          </Folder>
+          <Folder Name="GameSceneBG">
+            <Image Name="gameBG_1.png" />
+            <Image Name="gameBG_2.png" />
+            <Image Name="gameBG_3.png" />
+            <Image Name="gameBG_4.png" />
+          </Folder>
+          <Folder Name="Hall">
+            <Image Name="evening1.jpg" />
+            <Image Name="evening2.jpg" />
+            <Image Name="winter.jpg" />
+            <Image Name="winterevening1.jpg" />
+            <Image Name="winterevening2.jpg" />
+            <Image Name="autumn.png" />
+            <Image Name="spring.png" />
+            <Image Name="summer.png" />
+            <Image Name="hall_1.png" />
+            <Image Name="hall_10.png" />
+            <Image Name="hall_11.png" />
+            <Image Name="hall_12.png" />
+            <Image Name="hall_13.png" />
+            <Image Name="hall_14.png" />
+            <Image Name="hall_15.png" />
+            <Image Name="hall_16.png" />
+            <Image Name="hall_17.png" />
+            <Image Name="hall_18.png" />
+            <Image Name="hall_19.png" />
+            <Image Name="hall_2.png" />
+            <Image Name="hall_20.png" />
+            <Image Name="hall_21.png" />
+            <Image Name="hall_22.png" />
+            <Image Name="hall_23.png" />
+            <Image Name="hall_24.png" />
+            <Image Name="hall_25.png" />
+            <Image Name="hall_26.png" />
+            <Image Name="hall_27.png" />
+            <Image Name="hall_28.png" />
+            <Image Name="hall_29.png" />
+            <Image Name="hall_3.png" />
+            <Image Name="hall_30.png" />
+            <Image Name="hall_31.png" />
+            <Image Name="hall_32.png" />
+            <Image Name="hall_33.png" />
+            <Image Name="hall_34.png" />
+            <Image Name="hall_35.png" />
+            <Image Name="hall_36.png" />
+            <Image Name="hall_37.png" />
+            <Image Name="hall_38.png" />
+            <Image Name="hall_39.png" />
+            <Image Name="hall_4.png" />
+            <Image Name="hall_5.png" />
+            <Image Name="hall_6.png" />
+            <Image Name="hall_7.png" />
+            <Image Name="hall_8.png" />
+            <Image Name="hall_9.png" />
+          </Folder>
+          <Folder Name="Start">
+            <Image Name="background.png" />
+            <Image Name="start_1.png" />
+            <Image Name="start_10.png" />
+            <Image Name="start_11.png" />
+            <Image Name="start_12.png" />
+            <Image Name="start_13.png" />
+            <Image Name="start_14.png" />
+            <Image Name="start_2.png" />
+            <Image Name="start_3.png" />
+            <Image Name="start_4.png" />
+            <Image Name="start_5.png" />
+            <Image Name="start_6.png" />
+            <Image Name="start_7.png" />
+            <Image Name="start_8.png" />
+            <Image Name="start_9.png" />
+          </Folder>
+          <Folder Name="ManImages">
+            <Folder Name="meiren">
+              <Image Name="meiren_1.jpg" />
+            </Folder>
+          </Folder>
+        </Folder>
+        <Project Name="CreateRole.csd" />
+        <Project Name="Zibei.csd" />
+        <Project Name="Dialogue.csd" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
