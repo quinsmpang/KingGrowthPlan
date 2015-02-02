@@ -14,6 +14,17 @@
             <TextureFile Type="Normal" Path="Images/Hall/effect/hall_3.png" />
           </TextureFrame>
         </Timeline>
+        <Timeline ActionTag="558090939" FrameType="TextureFrame">
+          <TextureFrame FrameIndex="0">
+            <TextureFile Type="Normal" Path="Images/Hall/effect/hall_5.png" />
+          </TextureFrame>
+          <TextureFrame FrameIndex="30">
+            <TextureFile Type="Normal" Path="Images/Hall/effect/hall_6.png" />
+          </TextureFrame>
+          <TextureFrame FrameIndex="60">
+            <TextureFile Type="Normal" Path="Images/Hall/effect/hall_6.png" />
+          </TextureFrame>
+        </Timeline>
       </Animation>
       <ObjectData Name="Layer" FrameEvent="" Tag="201" ctype="LayerObjectData">
         <Position X="0.0000" Y="0.0000" />
@@ -37,7 +48,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </NodeObjectData>
-          <NodeObjectData Name="yushuyuan" ActionTag="78926726" FrameEvent="" Tag="205" ObjectIndex="3" ctype="SpriteObjectData">
+          <NodeObjectData Name="yushuyuan" CanEdit="False" ActionTag="78926726" VisibleForFrame="False" FrameEvent="" Tag="205" ObjectIndex="3" ctype="SpriteObjectData">
             <Position X="382.0017" Y="319.9999" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -65,6 +76,38 @@
                 <PrePosition X="0.4940" Y="0.2001" />
                 <PreSize X="0.0000" Y="0.0000" />
                 <FontResource Type="Normal" Path="Images/Fonts/FZHLJW.TTF" />
+              </NodeObjectData>
+            </Children>
+            <FileData Type="Normal" Path="Images/Hall/hall_1.png" />
+          </NodeObjectData>
+          <NodeObjectData Name="wudaochang" CanEdit="False" ActionTag="677690857" VisibleForFrame="False" FrameEvent="" Tag="89" ObjectIndex="4" ctype="SpriteObjectData">
+            <Position X="392.0017" Y="309.9999" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <Size X="263.0000" Y="240.0000" />
+            <PrePosition X="0.0000" Y="0.0000" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <Children>
+              <NodeObjectData Name="Text_1_Copy" ActionTag="1284095853" FrameEvent="" Tag="91" ObjectIndex="3" FontSize="20" LabelText="皇上在武道场锻炼身体。" ctype="TextObjectData">
+                <Position X="129.9108" Y="48.0128" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <Size X="220.0000" Y="23.0000" />
+                <PrePosition X="0.0000" Y="0.0000" />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FontResource Type="Normal" Path="Images/Fonts/FZHLJW.TTF" />
+              </NodeObjectData>
+              <NodeObjectData Name="hall_5" ActionTag="558090939" FrameEvent="" Tag="95" ObjectIndex="6" ctype="SpriteObjectData">
+                <Position X="130.0000" Y="147.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <Size X="223.0000" Y="156.0000" />
+                <PrePosition X="0.4943" Y="0.6125" />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Images/Hall/effect/hall_5.png" />
               </NodeObjectData>
             </Children>
             <FileData Type="Normal" Path="Images/Hall/hall_1.png" />
