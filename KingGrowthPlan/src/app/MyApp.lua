@@ -30,5 +30,12 @@ function MyApp:changeToCreateRoleScene()
     self:enterScene("CreateRole.CreateRoleScene", nil, "fade", 0.6, display.COLOR_BLACK)
 end
 
+function MyApp:changeToHallScene()
+    self:enterScene("Hall.HallScene", nil, "fade", 0.6, display.COLOR_BLACK)
+end
+
+function MyApp:changeToHaremScene()
+    self:enterScene("Harem.HaremScene", nil, "fade", 0.6, display.COLOR_BLACK)
+end
 
 return MyApp

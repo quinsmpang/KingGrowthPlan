@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "KingGrowthPlan/src"
+		},
+		{
+			"path": "KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api"
+		},
+		{
+			"path": "C++/old/数据库"
+		},
+		{
+			"path": "C++/old/Scripts"
+		}
+	]
+}

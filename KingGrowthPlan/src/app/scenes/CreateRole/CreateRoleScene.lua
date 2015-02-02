@@ -10,12 +10,12 @@ function CreateRoleScene:init()
 	reader:resetLocator()
 	reader:setClickLocator(handler(self, self.getClickCallBack))
 
-	local widget = cc.CSLoader:createNode("CreateRole.csb")
+	local widget = cc.CSLoader:createNode("CSD/CreateRole.csb")
 	self:addChild(widget)
 	self._rootNode = widget
 end
 function CreateRoleScene:getClickCallBack(name)
-	local callback = function ()  end
+	local callback
 	if name == "chooseLevel" then
 		callback = handler(self, self.chooseLevel)
 	elseif name == "setName" then
@@ -34,7 +34,7 @@ end
 function CreateRoleScene:onEnter()
 	print("CreateRoleScene:onEnter")
 	-- local cache = ccs.ActionTimelineCache:getInstance()
-	-- local timeLine = cache:createActionWithFlatBuffersFile("CreateRole.csb")
+	-- local timeLine = cache:createActionWithFlatBuffersFile("CSD/CreateRole.csb")
 	-- timeLine:setTimeSpeed(1/2)
 	-- self:runAction(timeLine)
 	-- timeLine:gotoFrameAndPlay(1, false)
@@ -175,6 +175,8 @@ function CreateRoleScene:createFinish()
 	GameData:setData("gameLevel", gameLevel)
 	self:initPlayerInfo()
 	self:initHarem()
+
+	app:changeToHallScene()
 end
 
 function CreateRoleScene:initPlayerInfo()

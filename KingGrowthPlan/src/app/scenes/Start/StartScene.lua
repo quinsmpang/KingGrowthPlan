@@ -4,12 +4,11 @@ local StartScene = class("StartScene", require("app.common.BaseScene"))
 function StartScene:init()
 	local reader = CustomNode.CustomRootNodeReader:getInstance()
 	reader:setClickLocator(handler(self, self.getClickCallBack))
-	local widget = cc.CSLoader:createNode("Start.csb")
+	local widget = cc.CSLoader:createNode("CSD/Start.csb")
 	self:addChild(widget)
 end
 
 function StartScene:getClickCallBack( eventName )
-	local callback = function() end
 	if eventName == "newGame" then
 		callback = handler(self, self.newGame)
 	end
@@ -17,7 +16,8 @@ function StartScene:getClickCallBack( eventName )
 end
 
 function StartScene:newGame(sender)
-	app:changeToCreateRoleScene()
+	-- app:changeToCreateRoleScene()
+	app:changeToHallScene()
 end
 
 

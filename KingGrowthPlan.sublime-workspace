@@ -1,0 +1,1756 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"getdis",
+				"getDisplayFrame()	CCSprite"
+			],
+			[
+				"setdis",
+				"setDisplayFrame(pNewFrame)	CCSprite"
+			],
+			[
+				"playani",
+				"playAnimationOnce(animation, removeWhenFinished, onComplete, delay)	Sprite"
+			],
+			[
+				"updatere",
+				"updateRemainTime(remain)	OnLineSprite"
+			],
+			[
+				"Aust",
+				"AudioEngine.stopEffect(nSoundId)	AudioEngine.stopEffect-nSoundId"
+			],
+			[
+				"tablm",
+				"table.merge(dest, src)"
+			],
+			[
+				"CF",
+				"CF.getLevelUpgradeExp(level)	CF.getLevelUpgradeExp-level"
+			],
+			[
+				"math",
+				"math.pow(x,y)"
+			],
+			[
+				"getCurT",
+				"getCurrentTaskId()	UserCenter"
+			],
+			[
+				"setposy",
+				"setPositionY(y)	CCPhysicsBody"
+			],
+			[
+				"UITooal",
+				"UITools.alert(message, buttons, callback, Icon1, mess2)	UITools.alert-message-buttons-callback-Icon1-mess2"
+			],
+			[
+				"scale",
+				"scale(scale)	Node"
+			],
+			[
+				"conver",
+				"convertToWorldSpace(nodePoint)	CCNode"
+			],
+			[
+				"disnewspr",
+				"display.newSprite(filename, x, y, params)"
+			],
+			[
+				"rewardS",
+				"rewardSprite	."
+			],
+			[
+				"anch",
+				"anchHight	."
+			],
+			[
+				"rota",
+				"rotation(r)	Node"
+			],
+			[
+				"bound",
+				"boundingBox()	CCNode"
+			],
+			[
+				"setpoy",
+				"setPositionY(y)	CCPhysicsBody"
+			],
+			[
+				"reload",
+				"reloadList(cardlist, isToShowGroup)	StrengthenCardList"
+			],
+			[
+				"removeallc",
+				"removeAllChildrenWithCleanup(cleanup)	CCNode"
+			],
+			[
+				"CCRo",
+				"CCRotateTo:create(fDuration, fDeltaAngle)"
+			],
+			[
+				"total",
+				"totaltime	."
+			],
+			[
+				"boun",
+				"boundingBox()	CCNode"
+			],
+			[
+				"order",
+				"orderOffset	."
+			],
+			[
+				"els",
+				"elseif	elseif"
+			],
+			[
+				"ski",
+				"skillid	."
+			],
+			[
+				"Game",
+				"GameData	."
+			],
+			[
+				"plani",
+				"playAnimationForever(animation, delay)	Sprite"
+			],
+			[
+				"stopac",
+				"stopActionByTag(tag)	CCNode"
+			],
+			[
+				"disnewsr",
+				"display.newSprite(filename, x, y, params)"
+			],
+			[
+				"dissetani",
+				"display.setAnimationCache(name, animation)"
+			],
+			[
+				"Onlin",
+				"OnLine_Reward	."
+			],
+			[
+				"removef",
+				"removeFromParentAndCleanup(cleanup)	CCNode"
+			],
+			[
+				"hand",
+				"handler(obj, method)"
+			],
+			[
+				"CCMen",
+				"CCMenuItem:create()"
+			],
+			[
+				"schun",
+				"scheduler.unscheduleGlobal(handle)"
+			],
+			[
+				"sch",
+				"scheduler.scheduleGlobal(listener, interval)"
+			],
+			[
+				"On",
+				"OnLine_Reward	."
+			],
+			[
+				"setDa",
+				"setData(key, value)	GameData"
+			],
+			[
+				"getchi",
+				"getChildrenCount()	CCNode"
+			],
+			[
+				"self_cardl",
+				"self._cardLayer	."
+			],
+			[
+				"setsca",
+				"setScale(scale)	CCNode"
+			],
+			[
+				"disremo",
+				"display.removeUnusedSpriteFrames()"
+			],
+			[
+				"onentert",
+				"onEnterTransitionFinish()	LogoScene"
+			],
+			[
+				"Heik",
+				"HeikejiScene	."
+			],
+			[
+				"removet",
+				"removeTextureForKey(textureKeyName)	CCTextureCache"
+			],
+			[
+				"dump",
+				"dumpCachedTextureInfo()	CCTextureCache"
+			],
+			[
+				"tow",
+				"townScene	."
+			],
+			[
+				"removefrm",
+				"removeAllFrameCache()	SkillEffect"
+			],
+			[
+				"setD",
+				"setDia()	DrawCardModel"
+			],
+			[
+				"GuideC",
+				"GuideConfigTrigger_ID	."
+			],
+			[
+				"Guidee",
+				"GuideConfigEvent	."
+			],
+			[
+				"Guiden",
+				"GuideConfigNormal_ID	."
+			],
+			[
+				"Guidecon",
+				"GuideConfigEvent	."
+			],
+			[
+				"Guid",
+				"GuideConfigEvent	."
+			],
+			[
+				"dish",
+				"display.height"
+			],
+			[
+				"disw",
+				"display.width"
+			],
+			[
+				"GAME",
+				"GAME_SCENE_TOWN	."
+			],
+			[
+				"curG",
+				"curGuideId	."
+			],
+			[
+				"Gui",
+				"GuideConfigEvent	."
+			],
+			[
+				"GuideConfig",
+				"GuideConfigNormal_ID	."
+			],
+			[
+				"use",
+				"useDefinedProduct	."
+			],
+			[
+				"UIT",
+				"UITools.LEFT_ALIGN	."
+			],
+			[
+				"shaeac",
+				"shareActionManager	."
+			],
+			[
+				"guide",
+				"guideId	."
+			],
+			[
+				"getda",
+				"getData(key)	GameData"
+			],
+			[
+				"Level",
+				"LevelUpShowCard	."
+			],
+			[
+				"isIn",
+				"isInGuide	."
+			],
+			[
+				"regtis",
+				"registerScriptObserver(target, handler, name)	CCNotificationCenter"
+			],
+			[
+				"Mix",
+				"MixtureShowCard	."
+			],
+			[
+				"Ga",
+				"GameData	."
+			],
+			[
+				"setda",
+				"setData(key, value)	GameData"
+			],
+			[
+				"CCRep",
+				"CCRepeatForever:create(pAction)"
+			],
+			[
+				"transe",
+				"transition.sequence(actions)"
+			],
+			[
+				"setpoi",
+				"setPosition(pos)	CCPhysicsBody"
+			],
+			[
+				"perwi",
+				"performWithDelay(callback, delay)	Node"
+			],
+			[
+				"kali",
+				"kCCTextAlignmentLeft"
+			],
+			[
+				"CCSize",
+				"CCSize(width, height)	CCSize"
+			],
+			[
+				"wordbg",
+				"wordbg	."
+			],
+			[
+				"G_c",
+				"G_createStrokeLabel(parms)	G_createStrokeLabel-parms"
+			],
+			[
+				"rot",
+				"rotation(r)	Node"
+			],
+			[
+				"playf",
+				"playDrawCardFrontAnim(addTime)	DrawCardView"
+			],
+			[
+				"fad",
+				"fadeInTime	."
+			],
+			[
+				"cardl",
+				"cardLayer	."
+			],
+			[
+				"Dra",
+				"DrawCardView	."
+			],
+			[
+				"remove",
+				"remove()	ThiefSprite"
+			],
+			[
+				"tableval",
+				"table.values(hashtable)"
+			],
+			[
+				"self_last",
+				"self._lastActionTag	."
+			],
+			[
+				"show",
+				"show()	ThiefSprite"
+			],
+			[
+				"req",
+				"require(modname)"
+			],
+			[
+				"CCFad",
+				"CCFadeOut:create(d)"
+			],
+			[
+				"opa",
+				"opacity(opacity)	Node"
+			],
+			[
+				"CCPro",
+				"CCProgressTo:create(duration, fPercent)"
+			],
+			[
+				"disnew",
+				"display.newSprite(filename, x, y, params)"
+			],
+			[
+				"CCFa",
+				"CCFadeOut:create(d)"
+			],
+			[
+				"setfli",
+				"setFlipX(bFlipX)	CCSprite"
+			],
+			[
+				"share",
+				"sharedTextureCache	."
+			],
+			[
+				"getimage",
+				"getImageConfig()	ThiefSprite"
+			],
+			[
+				"CCRect",
+				"CCRect(x, y, width, height)	CCRect"
+			],
+			[
+				"CCSpr",
+				"CCSpriteFrame:create(filename, rect)"
+			],
+			[
+				"stopal",
+				"stopAllActions()	CCNode"
+			],
+			[
+				"self_tou",
+				"self._touchLayer	."
+			],
+			[
+				"shatex",
+				"sharedTextureCache	."
+			],
+			[
+				"CCAnim",
+				"CCAnimate:create(pAnimation)"
+			],
+			[
+				"disset",
+				"display.setAnimationCache(name, animation)"
+			],
+			[
+				"disadd",
+				"display.addSpriteFramesWithFile(plistFilename, image, handler)"
+			],
+			[
+				"disnewf",
+				"display.newFrames(pattern, begin, length, isReversed)"
+			],
+			[
+				"disge",
+				"display.getAnimationCache(name)"
+			],
+			[
+				"ccp",
+				"ccp(x, y)	ccp-x-y"
+			],
+			[
+				"settouch",
+				"setTouchEnabled(e)	CCScrollView"
+			],
+			[
+				"self_far",
+				"self._farmSprites	."
+			],
+			[
+				"stringfor",
+				"string.format(formatstring,···)"
+			],
+			[
+				"CCInt",
+				"CCInteger:create(v)"
+			],
+			[
+				"Noti",
+				"NotificationTool	."
+			],
+			[
+				"newl",
+				"display.newLayer()"
+			],
+			[
+				"resumea",
+				"resumeSchedulerAndActions()	CCNode"
+			],
+			[
+				"trans",
+				"transition.sequence(actions)"
+			],
+			[
+				"CCPr",
+				"CCProgressTo:create(duration, fPercent)"
+			],
+			[
+				"pausea",
+				"pauseSchedulerAndActions()	CCNode"
+			],
+			[
+				"disnewgre",
+				"display.newProgressTimer(image, progresssType)"
+			],
+			[
+				"Re",
+				"RepairMachine	."
+			],
+			[
+				"CCF",
+				"CCFloat:create(v)"
+			],
+			[
+				"post",
+				"postNotification(name)	CCNotificationCenter"
+			],
+			[
+				"removeo",
+				"removeObserver(target, name)	CCNotificationCenter"
+			],
+			[
+				"noti",
+				"notification	."
+			],
+			[
+				"conve",
+				"convertToWorldSpace(nodePoint)	CCNode"
+			],
+			[
+				"G_cres",
+				"G_createSpawnAction(tab)	G_createSpawnAction-tab"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: e",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: en",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: u",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			],
+			[
+				"lua",
+				"Set Syntax: Lua"
+			]
+		],
+		"width": 756.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/FightChooseCard.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Logo/LogoScene.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/res/Images/Fight/choosecard/ExpermentRevive.plist",
+		"/Users/lingyun/Xingji/client/quick-cocos2d-x/framework/transition.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/guide/GuideConfig.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/guide/GuideController.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/guide/GuideView.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/tools/GlobalMethod.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/common/StitchTip.lua",
+		"/Users/lingyun/Xingji/client/quick-cocos2d-x/framework/api/GameState.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/data/GameData.lua",
+		"/Users/lingyun/Xingji/client/quick-cocos2d-x/lib/luabinding/cocos2dx/platform/CCFileUtils.tolua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/MyApp.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/AttackAction.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen/StrengthenCardList.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Mixture/MixtureScene.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen/StrengthenScene.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/LevelUp/LevelUpShowCard.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/Monster.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/user/UserCenter.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/OnLine/OnLineDialog.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/OnLine/OnLineSprite.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/tools/GlobalVarible.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/TownScene/TownView.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/config.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Monster_postion_configure.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Task_monster_configure.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Monster_info.lua",
+		"/Users/lingyun/Xingji/client/quick-cocos2d-x/lib/luabinding/cocos2dx/base_nodes/CCNode.tolua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Decoration/view/DecorationView.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/DrawCard/model/DrawCardModel.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Task_info.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/basic/ManageGeneral.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/basic/MapGeneral.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/SellCardScene/sellCardView.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/FightAttackers.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/CaptureEngine.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Scanning/ScanScene.lua",
+		"/Users/lingyun/Xingji/client/quick-cocos2d-x/framework/display.lua",
+		"/Users/lingyun/Xingji/client/quick-cocos2d-x/lib/luabinding/cocos2dx/draw_nodes/CCDrawNode.tolua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/Skill.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/common/cardLayer.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/mainModel/MainControl.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/story/Story.lua",
+		"/Users/lingyun/Xingji/client/quick-cocos2d-x/framework/api/Store.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/DrawCard/view/DrawCardView.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/WordConfig_cn.lua",
+		"/Users/lingyun/Xingji/client/quick-cocos2d-x/lib/luabinding/extensions/CocoStudio/Armature/animation/CCArmatureAnimation.tolua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/SkillEffect.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Friends/ChatView.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/FightScene.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/smallGame/barber/CleanGarbage.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/common/BaseScene.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/smallGame/dress/ThiefSprite.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/Experiment.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/FightTest.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/smallGame/dining/RepairMachine.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/model/ItemControl.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/smallGame/farm/AwayEating.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/common/AudioEngine.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/smallGame/dress/PoliceSprite.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/today.TODO",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/TownScene/tasks.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/common/playerInfo.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/LoadingScene.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/AchievementReward.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Email/EmailLayer.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/network/WBNetwork.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/TownScene/Functions.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/TownScene/taskScene.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/SkillEffectTime.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/sprite/ConveySprite.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Config_Functions.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Experimental_level_info.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/Actor.lua",
+		"/Users/lingyun/Xingji/client/quick-cocos2d-x/framework/functions.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/GroudScene/GroundView.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/GroudScene/GroundModule.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen/StrengthenShowCard.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen/CommonExper.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Experimental_base_info.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/FightMonsters.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Decoration/model/DecorationModel.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Product_from.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Furniture_info.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/SignIn/SignInLayer.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen/StrengthenBgView.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Mixture/MixtureShowCard.lua",
+		"/Users/lingyun/Xingji/client/quick-cocos2d-x-v2.2.5-plus/lib/cocos2d-x/cocos2dx/menu_nodes/CCMenu.cpp",
+		"/Users/lingyun/Xingji/client/quick-cocos2d-x/framework/ui.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/common/RichLabel.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/ShopLayer/buyItemsUI.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/FightResult.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Friends/SearchView.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Friends/FriendsScene.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/CreateRole/CreateRoleScene.lua",
+		"/Users/lingyun/Desktop/EAGLView.mm",
+		"/Users/lingyun/Xingji/client/project/stitch/res/Images/Manage/bg/Bakery_bg_04.png",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/FightModeScene/fightModeView.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/guardGroudScene/GroundController.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/LevelUp/LevelUpScene.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/BuffEffect.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/guardGroudScene/GroundScene.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Skill_info.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/ItemConfig.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/FightPropConfig.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/FightProp.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Friends/FriendView.lua",
+		"/Users/lingyun/Xingji/writer/000配置表/xlrd-0.7.1/luaconfig/WordConfig_cn.lua",
+		"/Users/lingyun/Desktop/Mine/GoToMark/package_control_channel/repository/p.json",
+		"/Users/lingyun/Library/Application Support/Sublime Text 2/Packages/User/GoMark.cache/2a4f5b6e7f07880fe0c14edd36728cca/file.mark",
+		"/Users/lingyun/Library/Application Support/Sublime Text 2/Packages/GoToMark/goto_mark.py",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/main.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/sprite/StaticNPCSprite.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/FightBoxDrop.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Fight_drop.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/guardGroudScene/GroundView.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/sprite/ProductSprite.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/model/SeatControl.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/res/Images/Decoration/effect/manji03shuchu/manji03shuchu.ExportJson",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/sprite/SeatSprite.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/view/Bubble.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/basic/StaticNPCInfo.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/basic/MapRoad.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Test/HeikejiView.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/FightExperiments.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/view/SmallGameView.lua",
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/mainView/DiningMainView.lua"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/DrawCard",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Decoration",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage",
+			"",
+			"/Users/lingyun/Xingji/client/project/stitch_new",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/common",
+			"",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/TownScene",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/TownScene",
+			"<open folders>",
+			"/Users/lingyun/Xingji/client/quick-cocos2d-x/framework",
+			"<open folders>",
+			"/Users/lingyun/Downloads/cocos2d-x-3.3rc0/cocos/scripting/lua-bindings/auto/api",
+			"<open folders>",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Decoration",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/TownScene",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/DrawCard",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Mixture",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/LevelUp",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/LevelUp",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"<open folders>",
+			"/Users/lingyun/Desktop/stitch/scripts/app/scenes",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/ShopLayer",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scene",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/LevelUp",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts,/Users/lingyun/Xingji/client/quick-cocos2d-x/framework",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts,/Users/lingyun/Xingji/client/project/demo/scripts",
+			"/Users/lingyun/Xingji/client/project/stitch/scripts",
+			"/Users/lingyun/Xingji/client/project/demo/scripts/",
+			"/Users/lingyun/Xingji/client/project/demo/scripts/app/",
+			"/Users/lingyun/Xingji/client/project/demo/scripts/app/scenes/Fight",
+			"<open folders>",
+			"/Users/lingyun/Xingji/client/project/demo/scripts/app/scenes/Strengthen",
+			"/Users/lingyun/Xingji/client/project/demo/scripts/app/scenes/LevelUp",
+			"/Users/lingyun/Xingji/client/project/demo/scripts/app/scenes/Fight",
+			"/Users/lingyun/Project/SteechGameDemo/scripts/app/scenes/Fight",
+			"/Users/lingyun/Project/SteechGameDemo/scripts/aap/scenes/Fight",
+			"/Users/lingyun/Project/SteechGameDemo/scripts/scenes/Fight",
+			"/Users/lingyun/Project/SteechGameDemo/scripts/,<open folders>",
+			"/Users/lingyun/Project/SteechGameDemo/scripts/",
+			"/Users/lingyun/Project/SteechGameDemo/scripts/app/scenes/Fight",
+			"/Users/lingyun/Project/SteechGameDemo/scripts/app,/Users/lingyun/Xingji/client/quick-cocos2d-x/samples,,<open folders>",
+			"/Users/lingyun/Project/SteechGameDemo/scripts/app,/Users/lingyun/Xingji/client/quick-cocos2d-x/samples,",
+			"/Users/lingyun/Project/SteechGameDemo/scripts/app,/Users/lingyun/Xingji/client/quick-cocos2d-x/samples",
+			"/Users/lingyun/Project/SteechGameDemo/scripts/app",
+			"/Users/lingyun/Xingji/client/quick-cocos2d-x/samples,<open folders>",
+			"/Users/lingyun/Xingji/client/quick-cocos2d-x/samples",
+			"<open folders>",
+			"/Users/lingyun/Library/Application Support/Sublime Text 2/Packages/QuickXDev",
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"--test",
+			"ExpermentDied",
+			"isDied",
+			"ExpermentDied",
+			"column",
+			"StitchTip",
+			"self._canClick = ",
+			"math.randomseed",
+			"addMeili",
+			"eventListener",
+			"CardChosed",
+			"isOpen",
+			"isopen",
+			"draw",
+			"ScanScene",
+			"CaptureEngine",
+			"Story",
+			"town_hairstyle_door1",
+			"line",
+			"\"本次花费：\"..num",
+			"_goldTimerLabel",
+			"setGold",
+			"math.randomseed",
+			"soundDelayTime",
+			"传送带 农场",
+			"农场",
+			"stopRepair",
+			"attack_individual_0",
+			"strengthChanged",
+			"updateStengthPlayerinfo",
+			"Images/tasks/isshow.png",
+			"testTaskButton",
+			"enter",
+			"OnlineTotalMinute",
+			"dump",
+			"removeFromParentAndCleanup",
+			"resetScheduler",
+			"backICall",
+			"10001",
+			"self.isRec",
+			"clickRestaurant",
+			"playerInfo",
+			"notification:re",
+			"10009",
+			"strengthSche",
+			"closeStrength",
+			"isMoveScrollView =",
+			"cardNode",
+			"cardSprite ",
+			"GameConnect.sendRequest",
+			"getTaskId",
+			"initLabel",
+			"hasOpen",
+			"openSeq",
+			"showDialog",
+			"column:set",
+			"attackcolumn",
+			"guardBarOffset",
+			"guardBarName",
+			"farm_machine_c2",
+			"农场",
+			"sellGold",
+			"sell_price",
+			"黑客",
+			"math.round",
+			".attack",
+			"_atk",
+			".atk",
+			"Experimental_level",
+			"Experiment_level",
+			"G_getExperimentInfo",
+			"Experimental_level_info",
+			"getProduct",
+			"product_material_num",
+			"G_getExperimentInfo",
+			"goodWill",
+			"getShopId2",
+			"getShop1_att_val",
+			"getBaojiVal",
+			"baojiVal",
+			".state",
+			"hp",
+			".atk",
+			"atk_speed",
+			".atk",
+			".attack",
+			"attack",
+			"blood",
+			"getUpgradeCost",
+			"getLevelConfig",
+			"setFurniture_",
+			"furniture_status",
+			"furniture_status ==",
+			"Product_from",
+			"need_product = 1",
+			"self._delegateMethodDic",
+			"MapData.Product",
+			"MD_setProduct",
+			"stitchBtn",
+			"closeFunctionLayer",
+			"flagShow",
+			"SetCardListEnable",
+			"sendInfoTo",
+			"SuretoStrength_checkEnough",
+			"checkEnough",
+			"showNoEnoughCoin",
+			"Experimental_level_info",
+			"RichLabel",
+			"createSprite_",
+			"dic ",
+			"image",
+			"product_gold = 1",
+			"product_diamond = 1",
+			"product_material_id",
+			"open",
+			"查找",
+			"searchName",
+			"flyAction",
+			"LayerRoate",
+			"pauseEat",
+			"self.eatSpr:",
+			"appearSpr",
+			"rando",
+			"rota",
+			"getDetail",
+			"guideFinished",
+			"onEnterTransitionFinish",
+			"onEnterTransitionFinish( )\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"OneDrawCardGuide",
+			"fadeInTime",
+			"moveTime",
+			"first_delay",
+			"normal_show_time",
+			"firstDelay",
+			"playBackgroundMusic(\"Sounds/Bgmusic",
+			"Sounds/LevelUpNormal/PutIn",
+			"Sounds/Common",
+			"self",
+			"self.stitchBtn",
+			"	",
+			"\"",
+			"    \"",
+			"\",",
+			"\"",
+			"\",",
+			"\",\n\"",
+			".atk",
+			".hp",
+			".quality",
+			".level_max",
+			"WhereInToLevelUp",
+			"app:enterTownScene",
+			"",
+			"G_createLabel",
+			"",
+			".png",
+			"Images/Common/button/Management_bg3.png",
+			"Images/Common/button/Management_button",
+			"Images/Common/button/renovation_button_05",
+			"关卡",
+			" ",
+			"chuxian.plist",
+			"chuxian.png",
+			"Seq_6_2_StrengthFirst",
+			"400",
+			"AudioEngine.",
+			"Images/Common/items/1",
+			",\n	[",
+			"",
+			"\\n",
+			"] = {\n		task_npc",
+			"[",
+			"",
+			"\"Images/Common/experiment/",
+			"require(\"app.config.",
+			"\")",
+			"] = {\n		building_id",
+			"[",
+			"] = {\n		task_npc",
+			"[",
+			"] = {\n		name_id",
+			"[",
+			"] = {\n		upgrade_exp",
+			"[",
+			"] = {\n		postion_1_x",
+			"[",
+			"] = {\n		num",
+			"[",
+			"] = {\n		name_id",
+			"[",
+			"] = {\n		name_id",
+			"[",
+			"] = {\n		number",
+			"[",
+			"] = {\n		story_income",
+			"] = {\n		story",
+			"[",
+			"] = {\n		name_id",
+			"[",
+			"] = {\n		name_id",
+			"[",
+			"nextNeedExp ",
+			"	}, \n	{",
+			"",
+			"		experimentCanFightMaxnum =",
+			"		stitchMoveSpeed =",
+			"		trayMaxnum =",
+			"		beltSpeed =",
+			"		exp =",
+			"		level =",
+			"level =",
+			"NotificationTool:table2Dict",
+			"FightTest",
+			"G_manageSceneType[cardtype].fileName",
+			"ChoseCard_setAllColumnEnable",
+			"getExperimentCount",
+			"app:enterTownScene()",
+			"enterTownScene",
+			"NotificationTool",
+			"",
+			"    ",
+			",",
+			"\",\"",
+			",",
+			"head02.jpg",
+			"head01.jpg",
+			"coin_notenough_cancel.jpg",
+			"SynthesisShowCard",
+			"SynthesisScene",
+			"_curhpword",
+			"_newhpword",
+			"_curhpword",
+			"getHP",
+			" = ",
+			"",
+			"}",
+			"{",
+			"",
+			"GameManager:",
+			"_",
+			"",
+			"\"shared",
+			"create",
+			"r\": \":",
+			"\":create",
+			"\": \".",
+			"\",",
+			"		\"",
+			"/",
+			"",
+			"ger\": \"CF",
+			"create",
+			"\"create",
+			"r\": \"CF",
+			"return",
+			"nimeia"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 273.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"logo",
+				"scripts/app/scenes/Logo/LogoScene.lua"
+			],
+			[
+				"prop",
+				"scripts/app/scenes/Fight/FightProp.lua"
+			],
+			[
+				"fightcho",
+				"scripts/app/scenes/Fight/FightChooseCard.lua"
+			],
+			[
+				"polic",
+				"scripts/app/scenes/Manage/smallGame/dress/PoliceSprite.lua"
+			],
+			[
+				"stit",
+				"scripts/app/common/StitchTip.lua"
+			],
+			[
+				"guide",
+				"scripts/app/guide/GuideView.lua"
+			],
+			[
+				"glom",
+				"scripts/app/tools/GlobalMethod.lua"
+			],
+			[
+				"fileu",
+				"luabinding/cocos2dx/platform/CCFileUtils.tolua"
+			],
+			[
+				"gamest",
+				"framework/api/GameState.lua"
+			],
+			[
+				"gamd",
+				"scripts/app/data/GameData.lua"
+			],
+			[
+				"mix",
+				"scripts/app/scenes/Mixture/MixtureScene.lua"
+			],
+			[
+				"strs",
+				"scripts/app/scenes/Strengthen/StrengthenScene.lua"
+			],
+			[
+				"strcar",
+				"scripts/app/scenes/Strengthen/StrengthenCardList.lua"
+			],
+			[
+				"mons",
+				"scripts/app/scenes/Fight/Monster.lua"
+			],
+			[
+				"att",
+				"scripts/app/scenes/Fight/AttackAction.lua"
+			],
+			[
+				"glo",
+				"scripts/app/tools/GlobalVarible.lua"
+			],
+			[
+				"taskmon",
+				"scripts/app/config/Task_monster_configure.lua"
+			],
+			[
+				"config",
+				"scripts/config.lua"
+			],
+			[
+				"townv",
+				"scripts/app/scenes/TownScene/TownView.lua"
+			],
+			[
+				"online",
+				"scripts/app/scenes/OnLine/OnLineSprite.lua"
+			],
+			[
+				"lonl",
+				"scripts/app/scenes/OnLine/OnLineDialog.lua"
+			],
+			[
+				"draw",
+				"scripts/app/scenes/DrawCard/model/DrawCardModel.lua"
+			],
+			[
+				"manage",
+				"scripts/app/scenes/Manage/basic/ManageGeneral.lua"
+			],
+			[
+				"mage",
+				"scripts/app/scenes/Manage/basic/MapGeneral.lua"
+			],
+			[
+				"taskin",
+				"scripts/app/config/Task_info.lua"
+			],
+			[
+				"decov",
+				"scripts/app/scenes/Decoration/view/DecorationView.lua"
+			],
+			[
+				"dis",
+				"framework/display.lua"
+			],
+			[
+				"glome",
+				"scripts/app/tools/GlobalMethod.lua"
+			],
+			[
+				"cap",
+				"scripts/app/CaptureEngine.lua"
+			],
+			[
+				"skil",
+				"scripts/app/scenes/Fight/Skill.lua"
+			],
+			[
+				"skill",
+				"scripts/app/scenes/Fight/Skill.lua"
+			],
+			[
+				"fighta",
+				"scripts/app/scenes/Fight/FightAttackers.lua"
+			],
+			[
+				"cardl",
+				"scripts/app/common/cardLayer.lua"
+			],
+			[
+				"myap",
+				"scripts/app/MyApp.lua"
+			],
+			[
+				"story",
+				"scripts/app/story/Story.lua"
+			],
+			[
+				"sto",
+				"framework/api/Store.lua"
+			],
+			[
+				"mainc",
+				"scripts/app/scenes/Manage/mainModel/MainControl.lua"
+			],
+			[
+				"sellv",
+				"scripts/app/scenes/SellCardScene/sellCardView.lua"
+			],
+			[
+				"ccarm",
+				"luabinding/extensions/CocoStudio/Armature/animation/CCArmatureAnimation.tolua"
+			],
+			[
+				"word",
+				"scripts/app/config/WordConfig_cn.lua"
+			],
+			[
+				"drav",
+				"scripts/app/scenes/DrawCard/view/DrawCardView.lua"
+			],
+			[
+				"drawm",
+				"scripts/app/scenes/DrawCard/model/DrawCardModel.lua"
+			],
+			[
+				"fightsc",
+				"scripts/app/scenes/Fight/FightScene.lua"
+			],
+			[
+				"chat",
+				"scripts/app/scenes/Friends/ChatView.lua"
+			],
+			[
+				"deco",
+				"scripts/app/scenes/Decoration/view/DecorationView.lua"
+			],
+			[
+				"thief",
+				"scripts/app/scenes/Manage/smallGame/dress/ThiefSprite.lua"
+			],
+			[
+				"fights",
+				"scripts/app/scenes/Fight/FightScene.lua"
+			],
+			[
+				"fighs",
+				"scripts/app/scenes/Fight/FightScene.lua"
+			],
+			[
+				"base",
+				"scripts/app/common/BaseScene.lua"
+			],
+			[
+				"guidecon",
+				"scripts/app/guide/GuideController.lua"
+			],
+			[
+				"mya",
+				"scripts/app/MyApp.lua"
+			],
+			[
+				"exp",
+				"scripts/app/scenes/Fight/Experiment.lua"
+			],
+			[
+				"fightt",
+				"scripts/app/scenes/Fight/FightTest.lua"
+			],
+			[
+				"fighsc",
+				"scripts/app/scenes/Fight/FightScene.lua"
+			],
+			[
+				"man",
+				"scripts/app/scenes/Manage/basic/ManageGeneral.lua"
+			],
+			[
+				"itemcon",
+				"scripts/app/scenes/Manage/model/ItemControl.lua"
+			],
+			[
+				"repai",
+				"scripts/app/scenes/Manage/smallGame/dining/RepairMachine.lua"
+			],
+			[
+				"awa",
+				"scripts/app/scenes/Manage/smallGame/farm/AwayEating.lua"
+			],
+			[
+				"audioen",
+				"scripts/app/common/AudioEngine.lua"
+			],
+			[
+				"cle",
+				"scripts/app/scenes/Manage/smallGame/barber/CleanGarbage.lua"
+			],
+			[
+				"drawv",
+				"scripts/app/scenes/DrawCard/view/DrawCardView.lua"
+			],
+			[
+				"loadin",
+				"scripts/app/scenes/Manage/LoadingScene.lua"
+			],
+			[
+				"play",
+				"scripts/app/common/playerInfo.lua"
+			],
+			[
+				"achi",
+				"scripts/app/config/AchievementReward.lua"
+			],
+			[
+				"task",
+				"scripts/app/scenes/TownScene/tasks.lua"
+			],
+			[
+				"emai",
+				"scripts/app/scenes/Email/EmailLayer.lua"
+			],
+			[
+				"user",
+				"scripts/app/user/UserCenter.lua"
+			],
+			[
+				"load",
+				"scripts/app/scenes/Manage/LoadingScene.lua"
+			],
+			[
+				"wbne",
+				"scripts/app/network/WBNetwork.lua"
+			],
+			[
+				"todo",
+				"scripts/today.TODO"
+			],
+			[
+				"onlin",
+				"scripts/app/scenes/OnLine/OnLineDialog.lua"
+			],
+			[
+				"tasks",
+				"scripts/app/scenes/TownScene/tasks.lua"
+			],
+			[
+				"skillef",
+				"scripts/app/config/SkillEffectTime.lua"
+			],
+			[
+				"function",
+				"scripts/app/scenes/TownScene/Functions.lua"
+			],
+			[
+				"sellcardv",
+				"scripts/app/scenes/SellCardScene/sellCardView.lua"
+			],
+			[
+				"townvi",
+				"scripts/app/scenes/TownScene/TownView.lua"
+			],
+			[
+				"func",
+				"scripts/app/scenes/TownScene/Functions.lua"
+			],
+			[
+				"cf",
+				"scripts/app/config/Config_Functions.lua"
+			],
+			[
+				"fightch",
+				"scripts/app/scenes/Fight/FightChooseCard.lua"
+			],
+			[
+				"mang",
+				"scripts/app/scenes/Manage/basic/ManageGeneral.lua"
+			],
+			[
+				"town",
+				"scripts/app/scenes/TownScene/TownView.lua"
+			],
+			[
+				"fun",
+				"framework/functions.lua"
+			],
+			[
+				"actor",
+				"scripts/app/scenes/Fight/Actor.lua"
+			],
+			[
+				"grou",
+				"scripts/app/scenes/GroudScene/GroundView.lua"
+			],
+			[
+				"card",
+				"scripts/app/common/cardLayer.lua"
+			],
+			[
+				"expba",
+				"scripts/app/config/Experimental_base_info.lua"
+			],
+			[
+				"gle",
+				"scripts/app/tools/GlobalMethod.lua"
+			],
+			[
+				"fightmon",
+				"scripts/app/scenes/Fight/FightMonsters.lua"
+			],
+			[
+				"comm",
+				"scripts/app/scenes/Strengthen/CommonExper.lua"
+			],
+			[
+				"str",
+				"scripts/app/scenes/Strengthen/StrengthenShowCard.lua"
+			],
+			[
+				"ex",
+				"scripts/app/config/Experimental_level_info.lua"
+			],
+			[
+				"furni",
+				"scripts/app/config/Furniture_info.lua"
+			],
+			[
+				"product",
+				"scripts/app/config/Product_from.lua"
+			],
+			[
+				"fur",
+				"scripts/app/config/Furniture_info.lua"
+			],
+			[
+				"sign",
+				"scripts/app/scenes/SignIn/SignInLayer.lua"
+			],
+			[
+				"strc",
+				"scripts/app/scenes/Strengthen/StrengthenCardList.lua"
+			],
+			[
+				"strbg",
+				"scripts/app/scenes/Strengthen/StrengthenBgView.lua"
+			],
+			[
+				"strshow",
+				"scripts/app/scenes/Strengthen/StrengthenShowCard.lua"
+			],
+			[
+				"ui",
+				"framework/ui.lua"
+			],
+			[
+				"rich",
+				"scripts/app/common/RichLabel.lua"
+			],
+			[
+				"expl",
+				"scripts/app/config/Experimental_level_info.lua"
+			],
+			[
+				"fighcho",
+				"scripts/app/scenes/Fight/FightChooseCard.lua"
+			],
+			[
+				"userc",
+				"scripts/app/user/UserCenter.lua"
+			],
+			[
+				"glova",
+				"scripts/app/tools/GlobalVarible.lua"
+			],
+			[
+				"fightre",
+				"scripts/app/scenes/Fight/FightResult.lua"
+			],
+			[
+				"friend",
+				"scripts/app/scenes/Friends/FriendsScene.lua"
+			],
+			[
+				"sear",
+				"scripts/app/scenes/Friends/SearchView.lua"
+			],
+			[
+				"fightres",
+				"scripts/app/scenes/Fight/FightResult.lua"
+			],
+			[
+				"create",
+				"scripts/app/scenes/CreateRole/CreateRoleScene.lua"
+			],
+			[
+				"fightmod",
+				"scripts/app/scenes/FightModeScene/fightModeView.lua"
+			],
+			[
+				"atta",
+				"scripts/app/scenes/Fight/AttackAction.lua"
+			],
+			[
+				"ema",
+				"scripts/app/scenes/Email/EmailLayer.lua"
+			],
+			[
+				"mixshow",
+				"scripts/app/scenes/Mixture/MixtureShowCard.lua"
+			],
+			[
+				"drawcardm",
+				"scripts/app/scenes/DrawCard/model/DrawCardModel.lua"
+			],
+			[
+				"levels",
+				"scripts/app/scenes/LevelUp/LevelUpScene.lua"
+			],
+			[
+				"level",
+				"scripts/app/scenes/LevelUp/LevelUpScene.lua"
+			],
+			[
+				"mixs",
+				"scripts/app/scenes/Mixture/MixtureScene.lua"
+			],
+			[
+				"ground",
+				"scripts/app/scenes/guardGroudScene/GroundScene.lua"
+			],
+			[
+				"wb",
+				"scripts/app/network/WBNetwork.lua"
+			],
+			[
+				"buffef",
+				"scripts/app/scenes/Fight/BuffEffect.lua"
+			],
+			[
+				"item",
+				"scripts/app/config/ItemConfig.lua"
+			],
+			[
+				"wor",
+				"scripts/app/config/WordConfig_cn.lua"
+			],
+			[
+				"fightp",
+				"scripts/app/config/FightPropConfig.lua"
+			],
+			[
+				"frie",
+				"scripts/app/scenes/Friends/FriendsScene.lua"
+			],
+			[
+				"act",
+				"scripts/app/scenes/Fight/Actor.lua"
+			],
+			[
+				"fightpro",
+				"scripts/app/scenes/Fight/FightProp.lua"
+			],
+			[
+				"fight",
+				"scripts/app/scenes/Fight/FightChooseCard.lua"
+			],
+			[
+				"guideco",
+				"scripts/app/guide/GuideConfig.lua"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true
+}

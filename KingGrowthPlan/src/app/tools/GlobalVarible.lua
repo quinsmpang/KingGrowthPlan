@@ -11,7 +11,7 @@ RoleType = {
 	Feizi    = 1,
 	Nanchong = 2,
 	Qinglou  = 3,
-	Waiyu    = 4
+	Waiyu    = 4,
 }
 
 FaceType = {
@@ -21,7 +21,7 @@ FaceType = {
 	Sad     = 4,
 	BadNews = 5,
 	Happy   = 6,
-	Fight   = 7
+	Fight   = 7,
 	NotBad  = 8,
 }
 
