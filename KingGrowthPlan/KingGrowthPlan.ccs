@@ -15,6 +15,7 @@
               <Image Name="xiaoguizi_7.png" />
               <Image Name="xiaoguizi_8.png" />
             </Folder>
+            <Image Name="mask.png" />
           </Folder>
           <Folder Name="CreateScene">
             <Image Name="createRole_1.png" />
@@ -132,6 +133,7 @@
             <Image Name="harembg.jpg" />
             <Image Name="harem_1.png" />
             <Image Name="harem_2.png" />
+            <Image Name="harem_3.png" />
           </Folder>
         </Folder>
         <Folder Name="CSD">

@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"Ha",
+				"HaremInfo	."
+			],
+			[
+				"Harem",
+				"HaremInfo	."
+			],
+			[
+				"My",
+				"MyApp	."
+			],
+			[
+				"Hall",
+				"HallModel	."
+			],
+			[
+				"PRINT",
+				"print(···)"
+			],
+			[
+				"strings",
+				"string.split(input, delimiter)"
+			],
+			[
+				"Pla",
+				"PlayerInfo	."
+			],
+			[
+				"tolua",
+				"tolua.isnull(obj)"
+			],
+			[
+				"share",
+				"sharedEventDispatcher	."
+			],
+			[
+				"class",
+				"class(classname, super)"
+			],
+			[
+				"chanetoha",
+				"changeToHallScene()	MyApp"
+			],
+			[
+				"playE",
+				"playEffect(name)	HallScene"
+			],
+			[
+				"changetoha",
+				"changeToHaremScene()	MyApp"
+			],
+			[
+				"changetoh",
+				"changeToHallScene()	MyApp"
+			],
+			[
 				"getdis",
 				"getDisplayFrame()	CCSprite"
 			],
@@ -392,10 +448,6 @@
 				"setFlipX(bFlipX)	CCSprite"
 			],
 			[
-				"share",
-				"sharedTextureCache	."
-			],
-			[
 				"getimage",
 				"getImageConfig()	ThiefSprite"
 			],
@@ -462,70 +514,82 @@
 			[
 				"Noti",
 				"NotificationTool	."
-			],
-			[
-				"newl",
-				"display.newLayer()"
-			],
-			[
-				"resumea",
-				"resumeSchedulerAndActions()	CCNode"
-			],
-			[
-				"trans",
-				"transition.sequence(actions)"
-			],
-			[
-				"CCPr",
-				"CCProgressTo:create(duration, fPercent)"
-			],
-			[
-				"pausea",
-				"pauseSchedulerAndActions()	CCNode"
-			],
-			[
-				"disnewgre",
-				"display.newProgressTimer(image, progresssType)"
-			],
-			[
-				"Re",
-				"RepairMachine	."
-			],
-			[
-				"CCF",
-				"CCFloat:create(v)"
-			],
-			[
-				"post",
-				"postNotification(name)	CCNotificationCenter"
-			],
-			[
-				"removeo",
-				"removeObserver(target, name)	CCNotificationCenter"
-			],
-			[
-				"noti",
-				"notification	."
-			],
-			[
-				"conve",
-				"convertToWorldSpace(nodePoint)	CCNode"
-			],
-			[
-				"G_cres",
-				"G_createSpawnAction(tab)	G_createSpawnAction-tab"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "C++/old/Scripts/Frame 4.as",
+			"settings":
+			{
+				"buffer_size": 113705,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "KingGrowthPlan/src/app/scenes/Harem/HaremScene.lua",
+			"settings":
+			{
+				"buffer_size": 1225,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "KingGrowthPlan/src/app/scenes/Harem/HaremModel.lua",
+			"settings":
+			{
+				"buffer_size": 210,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "KingGrowthPlan/src/app/scenes/Harem/HaremView.lua",
+			"settings":
+			{
+				"buffer_size": 1170,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "KingGrowthPlan/src/app/common/HaremInfo.lua",
+			"settings":
+			{
+				"buffer_size": 961,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "KingGrowthPlan/src/app/scenes/CreateRole/CreateRoleScene.lua",
+			"settings":
+			{
+				"buffer_size": 7177,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 327.0,
 		"selected_items":
 		[
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Disable Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -551,10 +615,6 @@
 				"Package Control: Disable Package"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
 				"Package Control: ",
 				"Package Control: Discover Packages"
 			],
@@ -573,10 +633,6 @@
 			[
 				"task",
 				"Tasks: New document"
-			],
-			[
-				"Package Control: insta",
-				"Package Control: Install Package"
 			],
 			[
 				"Package Control: inst",
@@ -620,6 +676,53 @@
 	},
 	"file_history":
 	[
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/tools/GameData.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/framework/cc/utils/GameState.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/common/UserCenter.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/Hall/HallModel.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/framework/functions.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/MyApp.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/CreateRole/CreateRoleScene.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/Start/StartScene.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/AttachNode.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/Includer.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/common/CountryInfo.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/Hall/HallScene.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/Hall/HallView.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/Harem/HaremScene.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/config/GameInitalConfig.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/common/PlayerInfo.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/LoadingBar.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/ProgressTimer.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/common/Dialogue.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/tools/GlobalVarible.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/EventCustom.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/Event.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/framework/cc/mvc/AppBase.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/cocos/cocos2d/Cocos2d.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/EventListener.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/Ref.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/EventListenerCustom.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/EventDispatcher.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/framework/cocos2dx.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/C++/old/Scripts/Frame 4.as",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/config/WordConfig.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/C++/old/Scripts/初始属性.as",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/EventTouch.lua",
+		"/Users/lingyun/Library/Application Support/Sublime Text 2/Packages/GoToMark/GoToMark.py",
+		"/Users/lingyun/Library/Application Support/Sublime Text 2/Packages/Default/Main.sublime-menu",
+		"/Users/lingyun/Library/Application Support/Sublime Text 2/Packages/GoToMark/Main.sublime-menu",
+		"/Users/lingyun/Library/Application Support/Sublime Text 2/Packages/GoToMark/Default (OSX).sublime-keymap",
+		"/Users/lingyun/Library/Application Support/Sublime Text 2/Packages/GoToMark/package-metadata.json",
+		"/Users/lingyun/Library/Application Support/Sublime Text 2/Packages/GoToMark/GoToMark.sublime-commands",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/TextureCache.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/Director.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/ActionTimeline.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/tools/GlobalMethod.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/Timeline.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/config/GameConfig.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/Node.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/framework/cocos2dx/NodeEx.lua",
 		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/FightChooseCard.lua",
 		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Logo/LogoScene.lua",
 		"/Users/lingyun/Xingji/client/project/stitch/res/Images/Fight/choosecard/ExpermentRevive.plist",
@@ -700,54 +803,7 @@
 		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/GroudScene/GroundModule.lua",
 		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen/StrengthenShowCard.lua",
 		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen/CommonExper.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Experimental_base_info.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/FightMonsters.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Decoration/model/DecorationModel.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Product_from.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Furniture_info.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/SignIn/SignInLayer.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen/StrengthenBgView.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Mixture/MixtureShowCard.lua",
-		"/Users/lingyun/Xingji/client/quick-cocos2d-x-v2.2.5-plus/lib/cocos2d-x/cocos2dx/menu_nodes/CCMenu.cpp",
-		"/Users/lingyun/Xingji/client/quick-cocos2d-x/framework/ui.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/common/RichLabel.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/ShopLayer/buyItemsUI.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/FightResult.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Friends/SearchView.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Friends/FriendsScene.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/CreateRole/CreateRoleScene.lua",
-		"/Users/lingyun/Desktop/EAGLView.mm",
-		"/Users/lingyun/Xingji/client/project/stitch/res/Images/Manage/bg/Bakery_bg_04.png",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/FightModeScene/fightModeView.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/guardGroudScene/GroundController.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/LevelUp/LevelUpScene.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/BuffEffect.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/guardGroudScene/GroundScene.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Skill_info.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/ItemConfig.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/FightPropConfig.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/FightProp.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Friends/FriendView.lua",
-		"/Users/lingyun/Xingji/writer/000配置表/xlrd-0.7.1/luaconfig/WordConfig_cn.lua",
-		"/Users/lingyun/Desktop/Mine/GoToMark/package_control_channel/repository/p.json",
-		"/Users/lingyun/Library/Application Support/Sublime Text 2/Packages/User/GoMark.cache/2a4f5b6e7f07880fe0c14edd36728cca/file.mark",
-		"/Users/lingyun/Library/Application Support/Sublime Text 2/Packages/GoToMark/goto_mark.py",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/main.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/sprite/StaticNPCSprite.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/FightBoxDrop.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Fight_drop.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/guardGroudScene/GroundView.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/sprite/ProductSprite.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/model/SeatControl.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/res/Images/Decoration/effect/manji03shuchu/manji03shuchu.ExportJson",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/sprite/SeatSprite.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/view/Bubble.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/basic/StaticNPCInfo.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/basic/MapRoad.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Test/HeikejiView.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/FightExperiments.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/view/SmallGameView.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Manage/mainView/DiningMainView.lua"
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Experimental_base_info.lua"
 	],
 	"find":
 	{
@@ -893,6 +949,49 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"harem\"",
+			"Hall",
+			"HaremModel",
+			"HallModel",
+			"心不在",
+			"UserCenter.getValue(key)",
+			".csb",
+			"	",
+			"listener",
+			"add",
+			"addeve",
+			"cc.eventManager",
+			"cc.eventManager ",
+			"handler",
+			"cc.EventCustom.",
+			"true",
+			"  \"",
+			"return UserCenter.get",
+			"wenxue",
+			"wen",
+			"文学",
+			"	",
+			"触类",
+			"HallView",
+			"UserCenter.add",
+			"dispatch",
+			"UserCenter.add",
+			"val",
+			"UserCenter.get",
+			"	",
+			"=",
+			"playerInfo",
+			"eventdis",
+			"play",
+			"goto",
+			"getPosition",
+			"position",
+			"title",
+			"callback = handler(self, self.",
+			"StartScene",
+			"Hall",
+			"CreateRoleScene",
+			"CreateRole",
 			"--test",
 			"ExpermentDied",
 			"isDied",
@@ -977,50 +1076,7 @@
 			"hp",
 			".atk",
 			"atk_speed",
-			".atk",
-			".attack",
-			"attack",
-			"blood",
-			"getUpgradeCost",
-			"getLevelConfig",
-			"setFurniture_",
-			"furniture_status",
-			"furniture_status ==",
-			"Product_from",
-			"need_product = 1",
-			"self._delegateMethodDic",
-			"MapData.Product",
-			"MD_setProduct",
-			"stitchBtn",
-			"closeFunctionLayer",
-			"flagShow",
-			"SetCardListEnable",
-			"sendInfoTo",
-			"SuretoStrength_checkEnough",
-			"checkEnough",
-			"showNoEnoughCoin",
-			"Experimental_level_info",
-			"RichLabel",
-			"createSprite_",
-			"dic ",
-			"image",
-			"product_gold = 1",
-			"product_diamond = 1",
-			"product_material_id",
-			"open",
-			"查找",
-			"searchName",
-			"flyAction",
-			"LayerRoate",
-			"pauseEat",
-			"self.eatSpr:",
-			"appearSpr",
-			"rando",
-			"rota",
-			"getDetail",
-			"guideFinished",
-			"onEnterTransitionFinish",
-			"onEnterTransitionFinish( )\n"
+			".atk"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1166,8 +1222,181 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "C++/old/Scripts/Frame 4.as",
+					"settings":
+					{
+						"buffer_size": 113705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85316,
+								85899
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-16LE",
+							"syntax": "Packages/ActionScript/ActionScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 60964.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "KingGrowthPlan/src/app/scenes/Harem/HaremScene.lua",
+					"settings":
+					{
+						"buffer_size": 1225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								393,
+								393
+							]
+						],
+						"settings":
+						{
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "KingGrowthPlan/src/app/scenes/Harem/HaremModel.lua",
+					"settings":
+					{
+						"buffer_size": 210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								210,
+								54
+							]
+						],
+						"settings":
+						{
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Lua/Lua.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "KingGrowthPlan/src/app/scenes/Harem/HaremView.lua",
+					"settings":
+					{
+						"buffer_size": 1170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								919,
+								919
+							]
+						],
+						"settings":
+						{
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 353.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "KingGrowthPlan/src/app/common/HaremInfo.lua",
+					"settings":
+					{
+						"buffer_size": 961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "KingGrowthPlan/src/app/scenes/CreateRole/CreateRoleScene.lua",
+					"settings":
+					{
+						"buffer_size": 7177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7116,
+								7116
+							]
+						],
+						"settings":
+						{
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3539.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1224,6 +1453,150 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"gam",
+				"src/app/tools/GameData.lua"
+			],
+			[
+				"gamesta",
+				"src/framework/cc/utils/GameState.lua"
+			],
+			[
+				"gamed",
+				"src/app/tools/GameData.lua"
+			],
+			[
+				"fun",
+				"src/framework/functions.lua"
+			],
+			[
+				"atta",
+				"api/AttachNode.lua"
+			],
+			[
+				"games",
+				"src/framework/cc/utils/GameState.lua"
+			],
+			[
+				"loadin",
+				"api/LoadingBar.lua"
+			],
+			[
+				"pro",
+				"api/ProgressTimer.lua"
+			],
+			[
+				"hal",
+				"src/app/scenes/Hall/HallModel.lua"
+			],
+			[
+				"eventc",
+				"api/EventCustom.lua"
+			],
+			[
+				"event",
+				"api/Event.lua"
+			],
+			[
+				"coco",
+				"src/cocos/cocos2d/Cocos2d.lua"
+			],
+			[
+				"ref",
+				"api/Ref.lua"
+			],
+			[
+				"eventli",
+				"api/EventListener.lua"
+			],
+			[
+				"evend",
+				"api/EventDispatcher.lua"
+			],
+			[
+				"eventl",
+				"api/EventListener.lua"
+			],
+			[
+				"eventlist",
+				"api/EventListenerCustom.lua"
+			],
+			[
+				"eventlis",
+				"api/EventListenerCustom.lua"
+			],
+			[
+				"eved",
+				"api/EventDispatcher.lua"
+			],
+			[
+				"glo",
+				"src/app/tools/GlobalVarible.lua"
+			],
+			[
+				"eventcustom",
+				"api/EventCustom.lua"
+			],
+			[
+				"cre",
+				"src/app/scenes/CreateRole/CreateRoleScene.lua"
+			],
+			[
+				"star",
+				"src/app/scenes/Start/StartScene.lua"
+			],
+			[
+				"eventdi",
+				"api/EventDispatcher.lua"
+			],
+			[
+				"evet",
+				"api/EventTouch.lua"
+			],
+			[
+				"eventcu",
+				"api/EventCustom.lua"
+			],
+			[
+				"e",
+				"api/Event.lua"
+			],
+			[
+				"dire",
+				"api/Director.lua"
+			],
+			[
+				"texture",
+				"api/TextureCache.lua"
+			],
+			[
+				"evendis",
+				"api/EventDispatcher.lua"
+			],
+			[
+				"timel",
+				"api/Timeline.lua"
+			],
+			[
+				"nodex",
+				"src/framework/cocos2dx/NodeEx.lua"
+			],
+			[
+				"node",
+				"api/Node.lua"
+			],
+			[
+				"crea",
+				"src/app/scenes/CreateRole/CreateRoleScene.lua"
+			],
+			[
+				"gamein",
+				"src/app/config/GameInitalConfig.lua"
+			],
+			[
+				"glov",
+				"src/app/tools/GlobalVarible.lua"
+			],
 			[
 				"logo",
 				"scripts/app/scenes/Logo/LogoScene.lua"
@@ -1283,10 +1656,6 @@
 			[
 				"att",
 				"scripts/app/scenes/Fight/AttackAction.lua"
-			],
-			[
-				"glo",
-				"scripts/app/tools/GlobalVarible.lua"
 			],
 			[
 				"taskmon",
@@ -1469,10 +1838,6 @@
 				"scripts/app/scenes/DrawCard/view/DrawCardView.lua"
 			],
 			[
-				"loadin",
-				"scripts/app/scenes/Manage/LoadingScene.lua"
-			],
-			[
 				"play",
 				"scripts/app/common/playerInfo.lua"
 			],
@@ -1549,10 +1914,6 @@
 				"scripts/app/scenes/TownScene/TownView.lua"
 			],
 			[
-				"fun",
-				"framework/functions.lua"
-			],
-			[
 				"actor",
 				"scripts/app/scenes/Fight/Actor.lua"
 			],
@@ -1603,138 +1964,6 @@
 			[
 				"sign",
 				"scripts/app/scenes/SignIn/SignInLayer.lua"
-			],
-			[
-				"strc",
-				"scripts/app/scenes/Strengthen/StrengthenCardList.lua"
-			],
-			[
-				"strbg",
-				"scripts/app/scenes/Strengthen/StrengthenBgView.lua"
-			],
-			[
-				"strshow",
-				"scripts/app/scenes/Strengthen/StrengthenShowCard.lua"
-			],
-			[
-				"ui",
-				"framework/ui.lua"
-			],
-			[
-				"rich",
-				"scripts/app/common/RichLabel.lua"
-			],
-			[
-				"expl",
-				"scripts/app/config/Experimental_level_info.lua"
-			],
-			[
-				"fighcho",
-				"scripts/app/scenes/Fight/FightChooseCard.lua"
-			],
-			[
-				"userc",
-				"scripts/app/user/UserCenter.lua"
-			],
-			[
-				"glova",
-				"scripts/app/tools/GlobalVarible.lua"
-			],
-			[
-				"fightre",
-				"scripts/app/scenes/Fight/FightResult.lua"
-			],
-			[
-				"friend",
-				"scripts/app/scenes/Friends/FriendsScene.lua"
-			],
-			[
-				"sear",
-				"scripts/app/scenes/Friends/SearchView.lua"
-			],
-			[
-				"fightres",
-				"scripts/app/scenes/Fight/FightResult.lua"
-			],
-			[
-				"create",
-				"scripts/app/scenes/CreateRole/CreateRoleScene.lua"
-			],
-			[
-				"fightmod",
-				"scripts/app/scenes/FightModeScene/fightModeView.lua"
-			],
-			[
-				"atta",
-				"scripts/app/scenes/Fight/AttackAction.lua"
-			],
-			[
-				"ema",
-				"scripts/app/scenes/Email/EmailLayer.lua"
-			],
-			[
-				"mixshow",
-				"scripts/app/scenes/Mixture/MixtureShowCard.lua"
-			],
-			[
-				"drawcardm",
-				"scripts/app/scenes/DrawCard/model/DrawCardModel.lua"
-			],
-			[
-				"levels",
-				"scripts/app/scenes/LevelUp/LevelUpScene.lua"
-			],
-			[
-				"level",
-				"scripts/app/scenes/LevelUp/LevelUpScene.lua"
-			],
-			[
-				"mixs",
-				"scripts/app/scenes/Mixture/MixtureScene.lua"
-			],
-			[
-				"ground",
-				"scripts/app/scenes/guardGroudScene/GroundScene.lua"
-			],
-			[
-				"wb",
-				"scripts/app/network/WBNetwork.lua"
-			],
-			[
-				"buffef",
-				"scripts/app/scenes/Fight/BuffEffect.lua"
-			],
-			[
-				"item",
-				"scripts/app/config/ItemConfig.lua"
-			],
-			[
-				"wor",
-				"scripts/app/config/WordConfig_cn.lua"
-			],
-			[
-				"fightp",
-				"scripts/app/config/FightPropConfig.lua"
-			],
-			[
-				"frie",
-				"scripts/app/scenes/Friends/FriendsScene.lua"
-			],
-			[
-				"act",
-				"scripts/app/scenes/Fight/Actor.lua"
-			],
-			[
-				"fightpro",
-				"scripts/app/scenes/Fight/FightProp.lua"
-			],
-			[
-				"fight",
-				"scripts/app/scenes/Fight/FightChooseCard.lua"
-			],
-			[
-				"guideco",
-				"scripts/app/guide/GuideConfig.lua"
 			]
 		],
 		"width": 0.0

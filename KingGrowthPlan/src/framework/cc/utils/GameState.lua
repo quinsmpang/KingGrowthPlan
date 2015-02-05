@@ -136,7 +136,7 @@ function GameState.save(newValues)
         end
     end
 
-    printInfo("GameState.save() - update file \"%s\"", filename)
+    -- printInfo("GameState.save() - update file \"%s\"", filename)
     return ret
 end
 

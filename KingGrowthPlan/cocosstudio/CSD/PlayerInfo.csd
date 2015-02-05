@@ -111,7 +111,7 @@
                     <PreSize X="0.0000" Y="0.0000" />
                     <ImageFileData Type="Normal" Path="Images/Hall/hall_19.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="healthuValue" ActionTag="-789232190" FrameEvent="" Tag="75" ObjectIndex="29" FontSize="18" LabelText="10" HorizontalAlignmentType="HT_Center" ctype="TextObjectData">
+                  <NodeObjectData Name="healthyValue" ActionTag="-789232190" FrameEvent="" Tag="75" ObjectIndex="29" FontSize="18" LabelText="10" HorizontalAlignmentType="HT_Center" ctype="TextObjectData">
                     <Position X="51.5000" Y="7.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
