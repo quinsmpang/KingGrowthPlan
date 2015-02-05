@@ -11,14 +11,25 @@ end
 function StartScene:getClickCallBack( eventName )
 	if eventName == "newGame" then
 		callback = handler(self, self.newGame)
+	elseif eventName == "continueGame" then
+		callback = handler(self, self.continueGame)
 	end
 	return callback
 end
 
-function StartScene:newGame(sender)
-	-- app:changeToCreateRoleScene()
-	app:changeToHallScene()
+function StartScene:newGame()
+	app:changeToCreateRoleScene()
 end
 
+function StartScene:continueGame()
+	local playerInfo = GameData:getData("playerInfo")
+	if playerInfo == nil then
+		device.showAlert("error", "没有存档。", {"关闭"})
+		return
+	end
+	app:initModel()
+	UserCenter.addValue("tili", 100)
+	app:changeToHallScene()
+end
 
 return StartScene

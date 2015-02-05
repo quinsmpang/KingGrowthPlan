@@ -1,42 +1,20 @@
 
+local HaremView = require("app.scenes.Harem.HaremView")
+local HaremModel = require("app.scenes.Harem.HaremModel")
+
 local HaremScene = class("HaremScene", require("app.common.BaseScene"))
 
 function HaremScene:init()
 	local reader = CustomNode.CustomRootNodeReader:getInstance()
 	reader:setClickLocator(handler(self, self.getClickCallBack))
-	local widget = cc.CSLoader:createNode("CSD/Harem.csb")
-	self:addChild(widget)
+	
+	self._view = HaremView.new(self)
+				 :addTo(self)
 
-	self._rootNode = widget
-
-	self:initHaremView()
+	self._model = HaremModel.new(self._view)
+					:addTo(self)
 end
 
-function HaremScene:initHaremView()
-	local haremBg = seekNodeByName(self._rootNode, "harembg")
-	for i = 1,#HaremTitle do
-		local name = string.format("title_%d", i)
-		local node = seekNodeByName(self._rootNode, name)
-		if node == nil then
-			node = cc.CSLoader:createNode("CSD/HaremBtn.csb")
-			haremBg:addChild(node)
-		end
-		local button = seekNodeByName(node, "button")
-		button:setTag(i)
-
-		local titleLabel = seekNodeByName(node, "title")
-		titleLabel:setString(HaremTitle[i].name)
-
-		local nameLabel = seekNodeByName(node, "name")
-		nameLabel:setString("")
-
-		if i >= 2 then
-			local posY = 470 - math.floor( (i - 2) / 4 ) * 40
-			local posX = (i - 2) % 4 * 160 + 140
-			node:setPosition(posX, posY)
-		end
-	end
-end
 function HaremScene:getClickCallBack( eventName )
 	if eventName == "Leave" then
 		callback = handler(self, self.leave)
@@ -49,8 +27,6 @@ function HaremScene:getClickCallBack( eventName )
 	end
 	return callback
 end
-
-
 
 function HaremScene:leave()
 	app:changeToHallScene()

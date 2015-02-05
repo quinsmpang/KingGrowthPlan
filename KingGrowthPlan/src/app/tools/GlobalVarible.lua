@@ -1,4 +1,9 @@
 
+sharedEventDispatcher = cc.Director:getInstance():getEventDispatcher()
+
+
+
+
 CONFIG_CRYPTO_KEY = "FWg2J8wxqiDRkRbgndRi"
 
 
@@ -34,5 +39,18 @@ FaceImage = {
 	[FaceType.Happy]   = "Images/Common/xiaoguizi/xiaoguizi_6.png",
 	[FaceType.Fight]   = "Images/Common/xiaoguizi/xiaoguizi_7.png",
 	[FaceType.NotBad]  = "Images/Common/xiaoguizi/xiaoguizi_8.png",
+}
 
+PlayerInfoKey = {
+	"happy",
+	"age",
+	"healthy",
+	"tili",   
+	"weiwang",
+	"wushu",  
+	"meili",  
+	"zhihui", 
+	"baoli",  
+	"daode",  
+	"caiyi",   
 }

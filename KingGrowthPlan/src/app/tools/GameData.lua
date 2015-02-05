@@ -36,6 +36,7 @@ end
 function GameData:setData(key, value)
 	Data_[key] = value
 	GameState_.save(Data_)
+    print("GameData save:", key)
 end
 
 function GameData:getData(key)

@@ -5,15 +5,7 @@ require("framework.init")
 
 
 
-require("app.tools.GlobalVarible")
-require("app.tools.GlobalMethod")
-GameData = require("app.tools.GameData").new()
-Dialogue = require("app.common.Dialogue").new()
-
-
-require("app.config.NameConfig")
-require("app.config.GameInitalConfig")
-require("app.config.GameConfig")
+require("app.Includer")
 
 local MyApp = class("MyApp", cc.mvc.AppBase)
 
@@ -38,4 +30,10 @@ function MyApp:changeToHaremScene()
     self:enterScene("Harem.HaremScene", nil, "fade", 0.6, display.COLOR_BLACK)
 end
 
+
+
+function MyApp:initModel()
+	UserCenter.init()
+	HaremInfo.init()
+end
 return MyApp

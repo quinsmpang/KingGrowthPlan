@@ -139,7 +139,7 @@ function CreateRoleScene:initZibei()
 		local posY = math.floor( (i - 1) / 10 ) * 70 + 65
 		local posX = i % 10 * 70 + 70
 
-		local widget = cc.CSLoader:createNode("Zibei.csb")
+		local widget = cc.CSLoader:createNode("CSD/Zibei.csb")
 		zibeiBG:addChild(widget)
 		widget:setPosition(posX, posY)
 
@@ -160,7 +160,7 @@ function CreateRoleScene:refleshName()
 	local name = getRandomName(SexType.Girl)
 	local queenName = seekNodeByName(self._rootNode, "queenName")
 	queenName:setString(name)
-	GameData:setTmpData("queenName", queenName)
+	GameData:setTmpData("queenName", name)
 
 	local imageName = getRandomImage(RoleType.Feizi)
 	local queenImage = seekNodeByName(self._rootNode, "queenImage")
@@ -169,6 +169,7 @@ function CreateRoleScene:refleshName()
 	GameData:setTmpData("queenImage", imageName)
 end
 
+-- mark init Data
 function CreateRoleScene:createFinish()
 	GameData:clearData()
 	local gameLevel = GameData:getTmpData("GameLevel")
@@ -176,6 +177,7 @@ function CreateRoleScene:createFinish()
 	self:initPlayerInfo()
 	self:initHarem()
 
+	app:initModel()
 	app:changeToHallScene()
 end
 
@@ -185,7 +187,6 @@ function CreateRoleScene:initPlayerInfo()
 	playerInfo.tili    = playerInfo.tili + math.random(1, 30)
 	playerInfo.weiwang = playerInfo.weiwang + math.random(1, 50)
 	playerInfo.wushu   = playerInfo.wushu + math.random(1, 10)
-	playerInfo.wenxue  = playerInfo.wenxue + math.random(1, 10)
 	playerInfo.meili   = playerInfo.meili + math.random(1, 10)
 	playerInfo.zhihui  = playerInfo.zhihui + math.random(1, 10)
 	playerInfo.baoli   = playerInfo.baoli + math.random(1, 10)
