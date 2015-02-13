@@ -1,0 +1,16 @@
+
+DATA_KEY_HAREM       = "harem"
+DATA_KEY_PLAYER_INFO = "playerInfo"
+DATA_KEY_GAME_LEVEL  = "gameLevel"
+
+TMP_DATA_KEY_GAME_LEVEL   = "GameLevel"
+TMP_DATA_KEY_PLAYER_NAME  = "playerName"
+TMP_DATA_KEY_COUNTRY_NAME = "countryName"
+TMP_DATA_KEY_ADD_ZHIHUI   = "addZhihui"
+TMP_DATA_KEY_ADD_MEILI    = "addMeili"
+TMP_DATA_KEY_ADD_WUSHU    = "addWushu"
+TMP_DATA_KEY_ADD_BAOLI    = "addBaoli"
+TMP_DATA_KEY_ZIBEI        = "zibei"
+TMP_DATA_KEY_QUEEN_NAME   = "queenName"
+TMP_DATA_KEY_QUEEN_IMAGE  = "queenImage"
+TMP_DATA_KEY_MAID_CONFIG  = "maidConfig"
