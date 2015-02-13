@@ -22,7 +22,7 @@ function StartScene:newGame()
 end
 
 function StartScene:continueGame()
-	local playerInfo = GameData:getData("playerInfo")
+	local playerInfo = GameData:getData(DATA_KEY_PLAYER_INFO)
 	if playerInfo == nil then
 		device.showAlert("error", "没有存档。", {"关闭"})
 		return

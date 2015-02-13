@@ -13,8 +13,8 @@ end
 function Dialogue:initView()
 	self._dialogue = cc.CSLoader:createNode("CSD/Dialogue.csb")
 	app.curScene:addChild(self._dialogue, 10)
-	local continue = seekNodeByName(self._dialogue, "continue")
-	continue:addClickEventListener(handler(self, self.clickContinue))
+	-- local continue = seekNodeByName(self._dialogue, "continue")
+	-- continue:addClickEventListener(handler(self, self.clickContinue))
 end
 
 function Dialogue:speakWords( words, callback )
@@ -56,6 +56,14 @@ function Dialogue:speakSingle( config, callback )
 	else
 		descImage:setVisible(false)
 	end
+
+	local maskImage = seekNodeByName(self._dialogue, "mask")
+	if config.isMask then
+		maskImage:setBackGroundColorOpacity(128)
+	else
+		maskImage:setBackGroundColorOpacity(0)
+	end
+	self._dialogue:setVisible(true)
 end
 
 function Dialogue:clickContinue()

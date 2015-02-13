@@ -23,11 +23,11 @@ UserCenter._info = {}
 --]]
     
 function UserCenter.init()
-	UserCenter._info = GameData:getData("playerInfo")
+	UserCenter._info = GameData:getData(DATA_KEY_PLAYER_INFO)
 end
 
 function UserCenter.save()
-	GameData:setData("playerInfo", UserCenter._info)
+	GameData:setData(DATA_KEY_PLAYER_INFO, UserCenter._info)
 end
 
 function UserCenter.getValue(propertyName)

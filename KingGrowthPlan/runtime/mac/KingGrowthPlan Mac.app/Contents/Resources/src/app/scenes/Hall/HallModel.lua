@@ -42,11 +42,7 @@ function HallModel:recoveryTili()
 	local descWord = "皇上在金龙殿休息。"
 	local chosed = math.random(0, 4)
 	if chosed == 0 then
-		local harem = GameData:getData("harem")
-		local values = table.values(harem)
-		local index = math.random(1, #values)
-		local titleId = values[index].titleId
-		descWord = string.format("%s娘娘前来伺候皇上休息。", HaremTitle[titleId].name)
+		descWord = string.format("%s娘娘前来伺候皇上休息。", HaremInfo.getRandomTitle())
 		UserCenter.addValue("healthy", 5)
 	end
 

@@ -1,6 +1,6 @@
 
 GameConfig = {
-	FeiziImageNum    = 282,
+	FeiziImageNum    = 895,
 	NanchongImageNum = 13,
 	QinglouImageNum  = 131,
 	WaiyuImageNum    = 22,

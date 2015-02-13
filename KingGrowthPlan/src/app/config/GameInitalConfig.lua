@@ -30,9 +30,11 @@ GameInitalConfig = {
 			titleId = 7,
 			imagePath = "Images/ManImages/meiren/meiren_32.jpg",
 			appearance = 90,
-			goodwill = 60,
+            exp = 60,
+			love = 140,
 			age = 17,
-			status = 0,
+			status = HaremStatus.normal,
+            statusNum = 0,
 		},
 	},
 }

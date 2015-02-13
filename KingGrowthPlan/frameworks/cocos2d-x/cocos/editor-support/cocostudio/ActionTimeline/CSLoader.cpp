@@ -745,6 +745,7 @@ Node* CSLoader::createNodeWithFlatBuffersFile(const std::string &filename)
 
 Node* CSLoader::nodeWithFlatBuffersFile(const std::string &fileName)
 {
+    CCLOG("Create UI With %s", fileName.c_str());
     std::string fullPath = FileUtils::getInstance()->fullPathForFilename(fileName);
     
     CC_ASSERT(FileUtils::getInstance()->isFileExist(fullPath));

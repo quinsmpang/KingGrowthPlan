@@ -12,7 +12,7 @@
         <PrePosition X="0.0000" Y="0.0000" />
         <PreSize X="0.0000" Y="0.0000" />
         <Children>
-          <NodeObjectData Name="harembg" CanEdit="False" ActionTag="-164932770" FrameEvent="" Tag="777" ObjectIndex="1" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="600" Scale9Height="440" ctype="ImageViewObjectData">
+          <NodeObjectData Name="harembg" ActionTag="-164932770" FrameEvent="" Tag="777" ObjectIndex="1" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="600" Scale9Height="440" ctype="ImageViewObjectData">
             <Position X="380.0000" Y="320.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -63,16 +63,6 @@
                 <PressedFileData Type="Normal" Path="Images/CreateScene/createRole_3.png" />
                 <NormalFileData Type="Normal" Path="Images/CreateScene/createRole_3.png" />
               </NodeObjectData>
-              <NodeObjectData Name="title_1" ActionTag="608359703" FrameEvent="" Tag="943" ObjectIndex="3" IconVisible="True" ctype="ProjectNodeObjectData">
-                <Position X="399.9987" Y="515.9991" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <AnchorPoint />
-                <CColor A="255" R="255" G="255" B="255" />
-                <Size X="0.0000" Y="0.0000" />
-                <PrePosition X="0.5263" Y="0.8062" />
-                <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="CSD/HaremBtn.csd" />
-              </NodeObjectData>
               <NodeObjectData Name="Text_54" ActionTag="-1876556707" FrameEvent="" Tag="949" ObjectIndex="54" FontSize="20" LabelText="要让哪个嫔妃侍寝" ctype="TextObjectData">
                 <Position X="391.7552" Y="562.6263" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
@@ -115,23 +105,23 @@
                 <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="Normal" Path="Images/Harem/harem_3.png" />
               </NodeObjectData>
-              <NodeObjectData Name="word1" ActionTag="-1945733735" FrameEvent="" Tag="225" ObjectIndex="55" FontSize="20" LabelText="皇上临幸了皇后：王柳萱。" HorizontalAlignmentType="HT_Center" ctype="TextObjectData">
-                <Position X="387.1857" Y="181.9600" />
+              <NodeObjectData Name="word1" ActionTag="-1945733735" FrameEvent="" Tag="225" ObjectIndex="55" FontSize="15" LabelText="皇上临幸了皇后：王柳萱。" HorizontalAlignmentType="HT_Center" ctype="TextObjectData">
+                <Position X="268.0000" Y="181.9600" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <AnchorPoint ScaleY="0.5000" />
                 <CColor A="255" R="0" G="0" B="0" />
-                <Size X="240.0000" Y="23.0000" />
-                <PrePosition X="0.4033" Y="0.2843" />
+                <Size X="180.0000" Y="18.0000" />
+                <PrePosition X="0.2792" Y="0.2843" />
                 <PreSize X="0.0000" Y="0.0000" />
                 <FontResource Type="Normal" Path="Images/Fonts/FZHLJW.TTF" />
               </NodeObjectData>
-              <NodeObjectData Name="word2" ActionTag="-2082078681" FrameEvent="" Tag="226" ObjectIndex="56" FontSize="20" LabelText="体力恢复全满。" ctype="TextObjectData">
-                <Position X="387.0000" Y="157.4400" />
+              <NodeObjectData Name="word2" ActionTag="-2082078681" FrameEvent="" Tag="226" ObjectIndex="56" FontSize="15" LabelText="体力恢复全满。" ctype="TextObjectData">
+                <Position X="268.0000" Y="172.4400" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <AnchorPoint ScaleY="1.0000" />
                 <CColor A="255" R="255" G="0" B="0" />
-                <Size X="140.0000" Y="23.0000" />
-                <PrePosition X="0.4031" Y="0.2460" />
+                <Size X="105.0000" Y="18.0000" />
+                <PrePosition X="0.2792" Y="0.2694" />
                 <PreSize X="0.0000" Y="0.0000" />
                 <FontResource Type="Normal" Path="Images/Fonts/FZHLJW.TTF" />
               </NodeObjectData>
@@ -155,7 +145,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </NodeObjectData>
-          <NodeObjectData Name="ProjectNode_1" CanEdit="False" ActionTag="1510620053" FrameEvent="" Tag="419" ObjectIndex="1" IconVisible="True" ctype="ProjectNodeObjectData">
+          <NodeObjectData Name="playerInfo" ActionTag="1510620053" FrameEvent="" Tag="419" ObjectIndex="1" IconVisible="True" ctype="ProjectNodeObjectData">
             <Position X="840.0000" Y="320.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint />

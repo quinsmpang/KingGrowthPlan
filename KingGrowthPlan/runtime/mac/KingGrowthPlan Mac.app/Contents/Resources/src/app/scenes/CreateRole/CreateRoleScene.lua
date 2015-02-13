@@ -160,7 +160,7 @@ function CreateRoleScene:refleshName()
 	local name = getRandomName(SexType.Girl)
 	local queenName = seekNodeByName(self._rootNode, "queenName")
 	queenName:setString(name)
-	GameData:setTmpData("queenName", queenName)
+	GameData:setTmpData("queenName", name)
 
 	local imageName = getRandomImage(RoleType.Feizi)
 	local queenImage = seekNodeByName(self._rootNode, "queenImage")
@@ -177,7 +177,7 @@ function CreateRoleScene:createFinish()
 	self:initPlayerInfo()
 	self:initHarem()
 
-	UserCenter.init()
+	app:initModel()
 	app:changeToHallScene()
 end
 
@@ -212,17 +212,19 @@ function CreateRoleScene:initPlayerInfo()
 end
 
 function CreateRoleScene:initHarem()
-	local harem = clone(GameInitalConfig.harem)
-	harem[1] = {
-			name = GameData:getTmpData("queenName"),
-			titleId = 1,
-			imagePath = GameData:getTmpData("queenImage"),
+	local haremConfig = clone(GameInitalConfig.harem)
+	haremConfig[1] = {
+			name       = GameData:getTmpData("queenName"),
+			titleId    = 1,
+			imagePath  = GameData:getTmpData("queenImage"),
 			appearance = 92,
-			goodwill = 210,
-			age = 16,
-			status = 0,
-		},
-	GameData:setData("harem", harem)
+            exp 	  = 210,
+			love      = 500,
+			age       = 16,
+			status    = HaremStatus.normal,
+			statusNum = 0,
+		}
+	GameData:setData("harem", haremConfig)
 end
 
 return CreateRoleScene

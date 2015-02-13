@@ -55,6 +55,16 @@
             <PreSize X="0.0000" Y="0.0000" />
             <FontResource Type="Normal" Path="Images/Fonts/FZHLJW.TTF" />
           </NodeObjectData>
+          <NodeObjectData Name="tip" ActionTag="735763585" VisibleForFrame="False" FrameEvent="" Tag="420" ObjectIndex="28" FontSize="13" LabelText="娘娘生病，不能伺候皇上了。" ctype="TextObjectData">
+            <Position X="0.0000" Y="26.5000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <CColor A="255" R="255" G="0" B="0" />
+            <Size X="169.0000" Y="15.0000" />
+            <PrePosition X="0.0000" Y="0.0000" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FontResource Type="Normal" Path="Images/Fonts/FZHLJW.TTF" />
+          </NodeObjectData>
         </Children>
       </ObjectData>
     </Content>

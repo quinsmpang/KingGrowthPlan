@@ -54,3 +54,10 @@ PlayerInfoKey = {
 	"daode",  
 	"caiyi",   
 }
+
+HaremStatus = {
+	normal    = 0,
+	illness   = 1,
+	pregnancy = 2,
+}
+

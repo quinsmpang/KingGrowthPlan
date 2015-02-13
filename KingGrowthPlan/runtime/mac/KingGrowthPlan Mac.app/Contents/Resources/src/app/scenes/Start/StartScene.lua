@@ -27,7 +27,7 @@ function StartScene:continueGame()
 		device.showAlert("error", "没有存档。", {"关闭"})
 		return
 	end
-	UserCenter.init()
+	app:initModel()
 	UserCenter.addValue("tili", 100)
 	app:changeToHallScene()
 end

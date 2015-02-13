@@ -84,6 +84,23 @@ function getTextureByFile(fileName)
 	return sprite:getTexture()
 end
 
+function dumpName( parent, tab )
+	if parent == nil or tolua.isnull(parent) then
+		return
+	end
+	tab = tab or ""
+	local name = parent:getName() or "undefined"
+	print(tab .. parent:getName())
 
+	local children = parent:getChildren()
+	local childCount = parent:getChildrenCount()
+	if childCount < 1 then
+		return
+	end
+	for i = 1, #children do
+		parent = children[i]
+		dumpName(parent, tab .. "\t")
+	end
+end
 
 

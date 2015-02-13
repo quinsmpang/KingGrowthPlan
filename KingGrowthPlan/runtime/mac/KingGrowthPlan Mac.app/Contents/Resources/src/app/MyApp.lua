@@ -30,4 +30,10 @@ function MyApp:changeToHaremScene()
     self:enterScene("Harem.HaremScene", nil, "fade", 0.6, display.COLOR_BLACK)
 end
 
+
+
+function MyApp:initModel()
+	UserCenter.init()
+	HaremInfo.init()
+end
 return MyApp

@@ -3,7 +3,7 @@
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
-      <ObjectData Name="Layer" FrameEvent="" Tag="122" ctype="LayerObjectData">
+      <ObjectData Name="Layer" FrameEvent="" CustomClassName="CustomRootNode" Tag="122" ctype="LayerObjectData">
         <Position X="0.0000" Y="0.0000" />
         <Scale ScaleX="1.0000" ScaleY="1.0000" />
         <AnchorPoint />
@@ -12,8 +12,21 @@
         <PrePosition X="0.0000" Y="0.0000" />
         <PreSize X="0.0000" Y="0.0000" />
         <Children>
-          <NodeObjectData Name="Panel_1" ActionTag="2100056941" FrameEvent="" Tag="123" ObjectIndex="1" PrePositionEnabled="True" TouchEnable="True" BackColorAlpha="222" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
-            <Position X="79.9680" Y="119.2594" />
+          <NodeObjectData Name="mask" ActionTag="1415021402" FrameEvent="" Tag="586" ObjectIndex="2" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+            <Position X="0.0000" Y="0.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <AnchorPoint />
+            <CColor A="255" R="255" G="255" B="255" />
+            <Size X="960.0000" Y="640.0000" />
+            <PrePosition X="0.0000" Y="0.0000" />
+            <PreSize X="1.0000" Y="1.0000" />
+            <SingleColor A="255" R="0" G="0" B="0" />
+            <FirstColor A="255" R="0" G="0" B="0" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleY="1.0000" />
+          </NodeObjectData>
+          <NodeObjectData Name="Panel_1" ActionTag="2100056941" FrameEvent="" Tag="123" ObjectIndex="1" PrePositionEnabled="True" BackColorAlpha="238" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+            <Position X="79.9680" Y="119.2320" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint />
             <CColor A="255" R="255" G="255" B="255" />
@@ -51,14 +64,14 @@
                 <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="Default" Path="Default/Sprite.png" />
               </NodeObjectData>
-              <NodeObjectData Name="continue" ActionTag="-971137271" FrameEvent="" Tag="128" ObjectIndex="1" TouchEnable="True" FontSize="35" ButtonText="继续" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="71" Scale9Height="12" ctype="ButtonObjectData">
-                <Position X="465.6103" Y="-36.9417" />
+              <NodeObjectData Name="continue" ActionTag="-971137271" FrameEvent="" CallBackType="Click" CallBackName="Dialoguecontinue" Tag="128" ObjectIndex="1" TouchEnable="True" FontSize="25" ButtonText="继续" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="71" Scale9Height="12" ctype="ButtonObjectData">
+                <Position X="465.6103" Y="-16.9417" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <Size X="120.0000" Y="50.0000" />
-                <PrePosition X="0.5820" Y="-0.2463" />
-                <PreSize X="0.1250" Y="0.0781" />
+                <Size X="91.0000" Y="32.0000" />
+                <PrePosition X="0.5820" Y="-0.1129" />
+                <PreSize X="0.1250" Y="0.2667" />
                 <FontResource Type="Normal" Path="Images/Fonts/FZHLJW.TTF" />
                 <TextColor A="255" R="0" G="0" B="0" />
                 <DisabledFileData Type="Normal" Path="Images/CreateScene/createRole_2.png" />

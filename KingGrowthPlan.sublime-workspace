@@ -4,12 +4,36 @@
 		"selected_items":
 		[
 			[
+				"getChildB",
+				"getChildByName"
+			],
+			[
 				"Ha",
-				"HaremInfo	."
+				"HaremView	."
+			],
+			[
+				"stringfo",
+				"string.format(formatstring,···)"
+			],
+			[
+				"setn",
+				"setName(name)	CCPhysicsBody"
+			],
+			[
+				"stopall",
+				"stopAllActions()	CCNode"
+			],
+			[
+				"strinfo",
+				"string.format(formatstring,···)"
 			],
 			[
 				"Harem",
-				"HaremInfo	."
+				"HaremView	."
+			],
+			[
+				"chil",
+				"children	."
 			],
 			[
 				"My",
@@ -490,64 +514,16 @@
 			[
 				"disge",
 				"display.getAnimationCache(name)"
-			],
-			[
-				"ccp",
-				"ccp(x, y)	ccp-x-y"
-			],
-			[
-				"settouch",
-				"setTouchEnabled(e)	CCScrollView"
-			],
-			[
-				"self_far",
-				"self._farmSprites	."
-			],
-			[
-				"stringfor",
-				"string.format(formatstring,···)"
-			],
-			[
-				"CCInt",
-				"CCInteger:create(v)"
-			],
-			[
-				"Noti",
-				"NotificationTool	."
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "C++/old/Scripts/Frame 4.as",
+			"file": "C++/代码段.lua",
 			"settings":
 			{
-				"buffer_size": 113705,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "KingGrowthPlan/src/app/scenes/Harem/HaremScene.lua",
-			"settings":
-			{
-				"buffer_size": 1225,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "KingGrowthPlan/src/app/scenes/Harem/HaremModel.lua",
-			"settings":
-			{
-				"buffer_size": 210,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "KingGrowthPlan/src/app/scenes/Harem/HaremView.lua",
-			"settings":
-			{
-				"buffer_size": 1170,
+				"buffer_size": 2751,
 				"line_ending": "Unix"
 			}
 		},
@@ -555,15 +531,39 @@
 			"file": "KingGrowthPlan/src/app/common/HaremInfo.lua",
 			"settings":
 			{
-				"buffer_size": 961,
+				"buffer_size": 1067,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "KingGrowthPlan/src/app/scenes/CreateRole/CreateRoleScene.lua",
+			"file": "KingGrowthPlan/src/app/common/UserCenter.lua",
 			"settings":
 			{
-				"buffer_size": 7177,
+				"buffer_size": 997,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "KingGrowthPlan/src/app/scenes/Harem/HaremModel.lua",
+			"settings":
+			{
+				"buffer_size": 1512,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "KingGrowthPlan/src/app/scenes/Harem/HaremView.lua",
+			"settings":
+			{
+				"buffer_size": 2133,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "KingGrowthPlan/src/app/scenes/Harem/HaremScene.lua",
+			"settings":
+			{
+				"buffer_size": 1337,
 				"line_ending": "Unix"
 			}
 		}
@@ -676,26 +676,30 @@
 	},
 	"file_history":
 	[
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/tools/GlobalMethod.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/CreateRole/CreateRoleScene.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/config/GameInitalConfig.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/common/PlayerInfo.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/tools/GlobalVarible.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/Harem/HaremView.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/Harem/HaremScene.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/Node.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/tools/GameData.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/Hall/HallScene.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/Start/StartScene.lua",
+		"/Users/lingyun/Project/KingGrowthPlan/C++/old/Scripts/Frame 4.as",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/framework/cc/utils/GameState.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/common/UserCenter.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/Hall/HallModel.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/framework/functions.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/MyApp.lua",
-		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/CreateRole/CreateRoleScene.lua",
-		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/Start/StartScene.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/AttachNode.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/Includer.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/common/CountryInfo.lua",
-		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/Hall/HallScene.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/Hall/HallView.lua",
-		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/scenes/Harem/HaremScene.lua",
-		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/config/GameInitalConfig.lua",
-		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/common/PlayerInfo.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/LoadingBar.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/ProgressTimer.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/common/Dialogue.lua",
-		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/tools/GlobalVarible.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/EventCustom.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/Event.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/framework/cc/mvc/AppBase.lua",
@@ -705,7 +709,6 @@
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/EventListenerCustom.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/EventDispatcher.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/framework/cocos2dx.lua",
-		"/Users/lingyun/Project/KingGrowthPlan/C++/old/Scripts/Frame 4.as",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/config/WordConfig.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/C++/old/Scripts/初始属性.as",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/EventTouch.lua",
@@ -718,10 +721,8 @@
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/TextureCache.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/Director.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/ActionTimeline.lua",
-		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/tools/GlobalMethod.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/Timeline.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/app/config/GameConfig.lua",
-		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/api/Node.lua",
 		"/Users/lingyun/Project/KingGrowthPlan/KingGrowthPlan/src/framework/cocos2dx/NodeEx.lua",
 		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Fight/FightChooseCard.lua",
 		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Logo/LogoScene.lua",
@@ -802,8 +803,7 @@
 		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/GroudScene/GroundView.lua",
 		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/GroudScene/GroundModule.lua",
 		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen/StrengthenShowCard.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen/CommonExper.lua",
-		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/config/Experimental_base_info.lua"
+		"/Users/lingyun/Xingji/client/project/stitch/scripts/app/scenes/Strengthen/CommonExper.lua"
 	],
 	"find":
 	{
@@ -811,7 +811,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			"",
@@ -949,6 +949,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"word2",
+			"word1",
+			"wordArr",
+			"updatePlayerInfo",
+			"clearData",
+			"GameData:setData(\"harem\"",
+			"harem",
 			"\"harem\"",
 			"Hall",
 			"HaremModel",
@@ -1069,14 +1076,7 @@
 			"G_getExperimentInfo",
 			"goodWill",
 			"getShopId2",
-			"getShop1_att_val",
-			"getBaojiVal",
-			"baojiVal",
-			".state",
-			"hp",
-			".atk",
-			"atk_speed",
-			".atk"
+			"getShop1_att_val"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1222,57 +1222,56 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "C++/old/Scripts/Frame 4.as",
+					"file": "C++/代码段.lua",
 					"settings":
 					{
-						"buffer_size": 113705,
+						"buffer_size": 2751,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								85316,
-								85899
+								2525,
+								2420
 							]
 						],
 						"settings":
 						{
-							"origin_encoding": "UTF-16LE",
-							"syntax": "Packages/ActionScript/ActionScript.tmLanguage",
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 60964.0,
+						"translation.y": 9.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "KingGrowthPlan/src/app/scenes/Harem/HaremScene.lua",
+					"file": "KingGrowthPlan/src/app/common/HaremInfo.lua",
 					"settings":
 					{
-						"buffer_size": 1225,
+						"buffer_size": 1067,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								393,
-								393
+								132,
+								141
 							]
 						],
 						"settings":
 						{
-							"is_preview": true,
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/Lua/Lua.tmLanguage",
 							"translate_tabs_to_spaces": false
@@ -1285,75 +1284,73 @@
 				},
 				{
 					"buffer": 2,
-					"file": "KingGrowthPlan/src/app/scenes/Harem/HaremModel.lua",
+					"file": "KingGrowthPlan/src/app/common/UserCenter.lua",
 					"settings":
 					{
-						"buffer_size": 210,
+						"buffer_size": 997,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								210,
-								54
+								447,
+								447
 							]
 						],
 						"settings":
 						{
-							"is_preview": true,
 							"origin_encoding": "ASCII",
-							"syntax": "Packages/Lua/Lua.tmLanguage"
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 256.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "KingGrowthPlan/src/app/scenes/Harem/HaremView.lua",
+					"file": "KingGrowthPlan/src/app/scenes/Harem/HaremModel.lua",
 					"settings":
 					{
-						"buffer_size": 1170,
+						"buffer_size": 1512,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								919,
-								919
+								1464,
+								1488
 							]
 						],
 						"settings":
 						{
-							"is_preview": true,
 							"origin_encoding": "ASCII",
-							"syntax": "Packages/Lua/Lua.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Lua/Lua.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 353.0,
+						"translation.y": 494.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "KingGrowthPlan/src/app/common/HaremInfo.lua",
+					"file": "KingGrowthPlan/src/app/scenes/Harem/HaremView.lua",
 					"settings":
 					{
-						"buffer_size": 961,
+						"buffer_size": 2133,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								101,
-								101
+								1692,
+								1692
 							]
 						],
 						"settings":
@@ -1363,36 +1360,35 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1091.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "KingGrowthPlan/src/app/scenes/CreateRole/CreateRoleScene.lua",
+					"file": "KingGrowthPlan/src/app/scenes/Harem/HaremScene.lua",
 					"settings":
 					{
-						"buffer_size": 7177,
+						"buffer_size": 1337,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7116,
-								7116
+								548,
+								548
 							]
 						],
 						"settings":
 						{
-							"is_preview": true,
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/Lua/Lua.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3539.0,
+						"translation.y": 141.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1453,6 +1449,54 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"glom",
+				"src/app/tools/GlobalMethod.lua"
+			],
+			[
+				"cre",
+				"src/app/scenes/CreateRole/CreateRoleScene.lua"
+			],
+			[
+				"player",
+				"src/app/common/PlayerInfo.lua"
+			],
+			[
+				"glov",
+				"src/app/tools/GlobalVarible.lua"
+			],
+			[
+				"crea",
+				"src/app/scenes/CreateRole/CreateRoleScene.lua"
+			],
+			[
+				"node",
+				"api/Node.lua"
+			],
+			[
+				"glo",
+				"src/app/tools/GlobalMethod.lua"
+			],
+			[
+				"gameda",
+				"src/app/tools/GameData.lua"
+			],
+			[
+				"start",
+				"src/app/scenes/Start/StartScene.lua"
+			],
+			[
+				"halls",
+				"src/app/scenes/Hall/HallScene.lua"
+			],
+			[
+				"creaa",
+				"src/app/scenes/CreateRole/CreateRoleScene.lua"
+			],
+			[
+				"inita",
+				"src/app/config/GameInitalConfig.lua"
+			],
 			[
 				"gam",
 				"src/app/tools/GameData.lua"
@@ -1530,16 +1574,8 @@
 				"api/EventDispatcher.lua"
 			],
 			[
-				"glo",
-				"src/app/tools/GlobalVarible.lua"
-			],
-			[
 				"eventcustom",
 				"api/EventCustom.lua"
-			],
-			[
-				"cre",
-				"src/app/scenes/CreateRole/CreateRoleScene.lua"
 			],
 			[
 				"star",
@@ -1582,20 +1618,8 @@
 				"src/framework/cocos2dx/NodeEx.lua"
 			],
 			[
-				"node",
-				"api/Node.lua"
-			],
-			[
-				"crea",
-				"src/app/scenes/CreateRole/CreateRoleScene.lua"
-			],
-			[
 				"gamein",
 				"src/app/config/GameInitalConfig.lua"
-			],
-			[
-				"glov",
-				"src/app/tools/GlobalVarible.lua"
 			],
 			[
 				"logo",
@@ -1620,10 +1644,6 @@
 			[
 				"guide",
 				"scripts/app/guide/GuideView.lua"
-			],
-			[
-				"glom",
-				"scripts/app/tools/GlobalMethod.lua"
 			],
 			[
 				"fileu",
@@ -1940,30 +1960,6 @@
 			[
 				"comm",
 				"scripts/app/scenes/Strengthen/CommonExper.lua"
-			],
-			[
-				"str",
-				"scripts/app/scenes/Strengthen/StrengthenShowCard.lua"
-			],
-			[
-				"ex",
-				"scripts/app/config/Experimental_level_info.lua"
-			],
-			[
-				"furni",
-				"scripts/app/config/Furniture_info.lua"
-			],
-			[
-				"product",
-				"scripts/app/config/Product_from.lua"
-			],
-			[
-				"fur",
-				"scripts/app/config/Furniture_info.lua"
-			],
-			[
-				"sign",
-				"scripts/app/scenes/SignIn/SignInLayer.lua"
 			]
 		],
 		"width": 0.0

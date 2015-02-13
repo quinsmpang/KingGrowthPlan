@@ -24,6 +24,11 @@ function HaremScene:getClickCallBack( eventName )
 		callback = handler(self, self.maidChose)
 	elseif eventName == "HaremChose" then
 		callback = handler(self, self.haremChose)
+	elseif eventName == "HaremFinish" then
+		callback = handler(self, self.leave)
+
+	elseif eventName == "Dialoguecontinue" then    --对话
+		callback = handler(Dialogue, Dialogue.clickContinue)
 	end
 	return callback
 end
@@ -33,17 +38,27 @@ function HaremScene:leave()
 end
 
 function HaremScene:randChose()
-	print("HaremScene:randChose")
+	self._model:randChoseOne()
 end
 
 function HaremScene:maidChose()
-	print("HaremScene:maidChose")
+	local config = {
+		text = "皇上，\n奴才这就去储秀宫帮您挑选一位。\n保证让您满意。",
+		faceType = FaceType.Happy,
+		isMask = true,
+	}
+	Dialogue:speakSingle( config, function ()
+		self._model:arrangeMaid()
+	end )
+	
 end
 
 function HaremScene:haremChose(sender)
-	print("HaremScene:haremChose")
 	local tag = sender:getTag()
-	printf("sender:%d, title:%s", tag, HaremTitle[tag].name)
+	if HaremInfo.isExist(tag) == false then
+		return
+	end
+	self._model:choseHarem(tag)
 end
 
 return HaremScene
